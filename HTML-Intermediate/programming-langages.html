@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/exsample.css">
+  <title>Exercise1-Intermediate</title>
+  <style>
+  table { border-collapse: collapse; width: 100%; }
+  th, td { border: 1px solid #999; padding: 8px; text-align: left; }
+  thead th { background: #f2f2f2; }
+  fieldset { margin: 1rem 0; }
+  label { display: block; margin: .4rem 0; }
+  nav ul { list-style: none; padding: 0; display: flex; gap: 1rem; }
+</style>
+
+</head>
+<body>
+<header>
+  <h1 id="home">Exercise1-Intermediate</h1>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<main id="about">
+  <p>Here is the main section of our page - it consists of a new articles</p>
+  <article>
+    <h2>Article 1 - 1995 was a pretty crazy year for programming languages!</h2>
+    <p>Don't believe me? Just check this table out:</p>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Language</th>
+          <th scope="col">Designed By</th>
+          <th scope="col">First Appeared</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>C++</td><td>Bjarne Stroustrup</td><td>1983</td></tr>
+        <tr><td>Python</td><td>Guido van Rossum</td><td>1991</td></tr>
+        <tr><td>Ruby</td><td>Yukihiro Matsumoto ("Matz")</td><td>1995</td></tr>
+        <tr><td>JavaScript</td><td>Brendan Eich</td><td>1995</td></tr>
+        <tr><td>Java</td><td>James Gosling</td><td>1995</td></tr>
+        <tr><td>PHP</td><td>Rasmus Lerdorf</td><td>1995</td></tr>
+      </tbody>
+      <tfoot>
+        <tr><td colspan="3">Lots of action in 1995!</td></tr>
+      </tfoot>
+    </table>
+  </article>
+  <article>
+    <h2>Article 2 - Coming soon...</h2>
+    <p>Stay tuned for updates.</p>
+  </article>
+  <section id="contact">
+    <h2>Contact us!</h2>
+
+    <form action="#" method="post">
+      <fieldset>
+        <legend>General Information</legend>
+
+        <label>First Name
+          <input type="text" name="first_name" required>
+        </label>
+
+        <label>Last Name
+          <input type="text" name="last_name" required>
+        </label>
+
+        <label>Email
+          <input type="email" name="email" required>
+        </label>
+
+        <label>Date Of Birth
+          <input type="date" name="dob">
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Essential Questions</legend>
+
+        <p>What kind of work do you need?</p>
+        <label><input type="checkbox" name="work[]" value="programming"> Programming:</label>
+        <label><input type="checkbox" name="work[]" value="design"> Design:</label>
+        <label><input type="checkbox" name="work[]" value="singing"> Singing:</label>
+        <label><input type="checkbox" name="work[]" value="comedy"> Comedy:</label>
+
+        <p>How interested are you in our design skills?</p>
+        <label><input type="radio" name="design_interest" value="very-low"> Very Low</label>
+        <label><input type="radio" name="design_interest" value="low"> Low</label>
+        <label><input type="radio" name="design_interest" value="medium"> Medium</label>
+        <label><input type="radio" name="design_interest" value="high"> High</label>
+        <label><input type="radio" name="design_interest" value="very-high"> Very High</label>
+      </fieldset>
+
+      <button type="submit">Submit me!</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>Here is our footer - let's make sure we copyright &copy; this!</p>
+</footer>
+
+</body>
+</html>
