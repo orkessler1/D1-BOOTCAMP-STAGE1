@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run current file (external)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "cwd": "${fileDirname}",
+      "console": "externalTerminal",
+      "justMyCode": true,
+      "env": { "PYTHONIOENCODING": "utf-8" }
+    }
+  ]
+}
