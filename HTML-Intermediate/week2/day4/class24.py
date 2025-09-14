@@ -64,18 +64,4 @@ with open("nameslist.txt", "r") as f:
     print(count)
 with open("nameslist.txt", "a") as f:
     f.write("\nOr")
-    # לקרוא את כל השורות
-with open("nameslist.txt", "r") as f:
-    lines = f.readlines()
-
-# להוסיף "SkyWalker" אחרי כל Luke
-new_lines = []
-for line in lines:
-    if line.strip() == "Luke":              # אם השורה שווה בדיוק ל-Luke
-        new_lines.append(line.strip() + " SkyWalker\n")
-    else:
-        new_lines.append(line)
-
-# לכתוב מחדש את הקובץ
-with open("nameslist.txt", "w") as f:
-    f.writelines(new_lines)
+    
