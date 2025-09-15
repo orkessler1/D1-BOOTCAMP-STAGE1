@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Vacation Cost</title>
+</head>
+<body>
+  <h1>Open the Console (F12)</h1>
+  <pre id="out"></pre>
+
+  <script>
+    // מחיר לילה במלון: $140
+    function hotelCost() {
+      let nights;
+      do {
+        nights = prompt("How many nights would you like to stay?");
+      } while (nights === null || nights.trim() === "" || isNaN(nights));
+      return Number(nights) * 140;
+    }
+
+    // מחיר טיסה לפי יעד: London=183, Paris=220, אחרת=300
+    function planeRideCost() {
+      let dest;
+      do {
+        dest = prompt("What is your destination?");
+      } while (dest === null || dest.trim() === "");
+      dest = dest.trim().toLowerCase();
+
+      if (dest === "london") return 183;
+      if (dest === "paris")  return 220;
+      return 300;
+    }
+
+    // סה״כ חופשה = מלון + טיסה
+    function totalVacationCost() {
+      const hotel = hotelCost();
+      const plane = planeRideCost();
+      const total = hotel + plane;
+
+      const msg =
+        "The hotel cost: $" + hotel + "\n" +
+        "The plane tickets cost: $" + plane + "\n" +
+        "Total: $" + total;
+
+      console.log(msg);
+      document.getElementById("out").textContent = msg;
+
+      return total;
+    }
+
+    // מפעיל מיד עם טעינת הדף (אפשר להסיר אם רוצים להפעיל ידנית בקונסול)
+    totalVacationCost();
+  </script>
+</body>
+</html>

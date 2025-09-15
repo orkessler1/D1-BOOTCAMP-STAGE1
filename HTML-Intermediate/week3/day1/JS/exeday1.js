@@ -117,3 +117,33 @@ document.getElementById("val").textContent = keys.join(", ");
 document.getElementById("inp").textContent = values.join(", ");
 document.getElementById("val").textContent = keys.join(", ");
 document.getElementById("inp").textContent = values.join(", ");
+
+
+const details = {
+  my: 'name',
+  is: 'Rudolf',
+  the: 'reindeer'
+};
+
+let sentence = "";
+
+for (let key in details) {
+  if (sentence !== "") {
+    sentence += " ";           // מוסיף רווח בין זוגות
+  }
+  sentence += key + " " + details[key];
+}
+
+console.log(sentence); // my name is Rudolf the reindeer
+
+
+const names = ["Jack", "Philip", "Sarah", "Amanda", "Bernard", "Kyle"];
+
+let letters = [];
+for (let i = 0; i < names.length; i++) {
+  letters.push(names[i][0].toUpperCase());
+}
+letters.sort();
+let secret = letters.join("");
+
+console.log(secret); // ABJKPS

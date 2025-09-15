@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>What's in my wallet?</title>
+</head>
+<body>
+  <h1>Open the Console (F12)</h1>
+  <pre id="out"></pre>
+
+  <script>
+    // changeEnough(itemPrice, [quarters, dimes, nickels, pennies])
+    function changeEnough(itemPrice, [q, d, n, p]) {
+      // מחשבים בסנטים כדי להימנע משגיאות נקודה צפה
+      const totalCents = 25*q + 10*d + 5*n + 1*p;
+      const priceCents = Math.round(itemPrice * 100);
+      return totalCents >= priceCents;
+    }
+
+    // הדגמות מהתרגיל
+    const tests = [
+      [4.25, [25, 20, 5, 0]],   // true
+      [14.11,[2, 100, 0, 0]],   // false
+      [0.75, [0, 0, 20, 5]],    // true
+    ];
+
+    const lines = tests.map(([price, coins]) =>
+      `changeEnough(${price}, [${coins.join(', ')}]) -> ${changeEnough(price, coins)}`
+    );
+
+    console.log(lines.join('\n'));
+    document.getElementById('out').textContent = lines.join('\n');
+  </script>
+</body>
+</html>
