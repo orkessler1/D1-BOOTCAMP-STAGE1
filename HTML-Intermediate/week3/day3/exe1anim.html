@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Hello World – Interval</title>
+  <style>
+    p { background: yellow; color: red; }
+  </style>
+</head>
+<body>
+  <div id="container"></div>
+  <button id="clear">Clear Interval</button>
+
+  <script>
+    // פונקציה שמוסיפה פסקה ל-container
+    function addHello() {
+      const p = document.createElement('p');
+      p.textContent = 'Hello World';
+      document.getElementById('container').appendChild(p);
+    }
+
+    // PART I: אחרי 2 שניות – alert
+    setTimeout(() => alert('Hello World'), 2000);
+
+    // PART III: כל 2 שניות – להוסיף פסקה
+    const intervalId = setInterval(addHello, 2000);
+
+    // עצירת ההוספה בלחיצה על הכפתור
+    document.getElementById('clear').addEventListener('click', () => {
+      clearInterval(intervalId);
+      // אופציונלי: לשנות כפתור כדי שתראה שנעצר
+      // document.getElementById('clear').textContent = 'Interval Cleared';
+      // document.getElementById('clear').disabled = true;
+    });
+  </script>
+</body>
+</html>

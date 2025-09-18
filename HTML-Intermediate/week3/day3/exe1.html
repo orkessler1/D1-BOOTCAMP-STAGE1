@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <article>
+    <h1> Some Facts </h1>
+    <h2> The Chocolate </h2>
+    <h3> History of the chocolate </h3>
+    <p> Chocolate is made from tropical Theobroma cacao tree seeds. 
+    Its earliest use dates back to the Olmec civilization in Mesoamerica.</p>
+    <p> After the European discovery of the Americas, chocolate became 
+    very popular in the wider world, and its demand exploded. </p>
+    <p> Chocolate has since become a popular food product that millions enjoy every day, 
+    thanks to its unique, rich, and sweet taste.</p> 
+    <p> But what effect does eating chocolate have on our health?</p> 
+  </article>
+  <p><button id="boldBtn">Make paragraphs bold</button></p>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // 1) DOM property – להביא את ה-h1 ולהדפיס לקונסול
+      const h1 = document.querySelector('article h1');
+      console.log('h1 element:', h1);
+      console.log('h1 text:', h1.textContent);
+
+      // 2) DOM methods – למחוק את הפסקה האחרונה בתוך <article>
+      const article = document.querySelector('article');
+      const lastP = article.querySelector('p:last-of-type');
+      if (lastP) lastP.remove();
+
+      // 3) מאזין אירוע – בלחיצה על h2 הרקע שלו נהיה אדום
+      const h2 = article.querySelector('h2');
+      h2.addEventListener('click', () => {
+        h2.style.backgroundColor = 'red';
+        h2.style.color = 'white';
+      });
+
+      // 4) מאזין אירוע – בלחיצה על h3 הוא נעלם (display: none)
+      const h3 = article.querySelector('h3');
+      h3.addEventListener('click', () => {
+        h3.style.display = 'none';
+      });
+
+      // 5) כפתור – בלחיצה הטקסט של כל הפסקאות נהיה מודגש (bold)
+      const boldBtn = document.getElementById('boldBtn');
+      boldBtn.addEventListener('click', () => {
+        article.querySelectorAll('p').forEach(p => {
+          p.style.fontWeight = 'bold';
+        });
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="utf-8" />
+  <title>Style Button Events</title>
+  <style>
+    body { font-family: system-ui, Arial; padding: 24px; }
+    #jsstyle {
+      padding: 10px 16px;
+      border: 1px solid #999;
+      border-radius: 8px;
+      background: #f3f3f3;
+      cursor: pointer;
+      transition: background-color .2s, transform .1s, box-shadow .2s, border-radius .2s;
+    }
+    /* מחלקות שנפעיל/נכבה ב-JS */
+    .hovered { background: #333; color: #fff; }
+    .pressed { transform: scale(0.96); }
+    .focused { box-shadow: 0 0 0 4px rgba(37, 99, 235, .25); }
+    .rounded { border-radius: 24px; }
+  </style>
+</head>
+<body>
+
+  <button id="jsstyle">Style</button>
+
+  <script>
+    const btn = document.getElementById('jsstyle');
+
+    // עכבר נכנס/יוצא – שינוי רקע/טקסט
+    btn.addEventListener('mouseenter', () => btn.classList.add('hovered'));
+    btn.addEventListener('mouseleave', () => {
+      btn.classList.remove('hovered', 'pressed');
+    });
+
+    // לחיצה בעכבר – אפקט "נלחץ"
+    btn.addEventListener('mousedown', () => btn.classList.add('pressed'));
+    btn.addEventListener('mouseup',   () => btn.classList.remove('pressed'));
+
+    // פוקוס/בלר – סימון נראות לפוקוס מקלדת
+    btn.addEventListener('focus', () => btn.classList.add('focused'));
+    btn.addEventListener('blur',  () => btn.classList.remove('focused'));
+
+    // קליק – הדגמה לשינוי קבוע (מעגליות הפינות)
+    btn.addEventListener('click', () => btn.classList.toggle('rounded'));
+
+    // נגישות: גם במקלדת (Space/Enter) נרגיש "לחוץ"
+    btn.addEventListener('keydown', (e) => {
+      if (e.key === ' ' || e.key === 'Enter') btn.classList.add('pressed');
+    });
+    btn.addEventListener('keyup', (e) => {
+      if (e.key === ' ' || e.key === 'Enter') btn.classList.remove('pressed');
+    });
+  </script>
+</body>
+</html>

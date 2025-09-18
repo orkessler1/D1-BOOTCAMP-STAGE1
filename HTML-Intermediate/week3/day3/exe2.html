@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Exercise – Get Form</title>
+</head>
+<body>
+
+  <form>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="firstname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lastname"><br><br>
+    <input type="submit" value="Submit" id="submit">
+  </form> 
+
+  <ul class="usersAnswer"></ul>
+
+  <script>
+    // מאתר את אלמנט ה-form הראשון בדף
+    const form = document.querySelector('form');
+
+    // מדפיס את האובייקט עצמו לקונסול (תראה אלמנט HTML)
+    console.log('form:', form);
+    const fname = document.querySelector('#fname');
+    console.log('fname:', fname);
+    const lname = document.querySelector('#lname');
+    console.log('lname:', lname);
+    const first = document.querySelector('input[name="firstname"]');
+    const last  = document.querySelector('input[name="lastname"]');
+
+    console.log('elements:', first, last);
+    console.log('values:', first.value, last.value);
+
+    // NEW: מוצא את ה-UL שאליו נצרף את ה-li
+    const answersList = document.querySelector('.usersAnswer');
+
+    // NEW: מאזין לאירוע שליחת הטופס
+    form.addEventListener('submit', (event) => {
+      // NEW: מבטל שליחה/ריענון דף ברירת מחדל
+      event.preventDefault();
+
+      // NEW: לוקח את הערכים מהאינפוטים (ומסיר רווחים מיותרים מסביב)
+      const firstVal = first.value.trim();
+      const lastVal  = last.value.trim();
+
+      // NEW: בדיקה שהם לא ריקים
+      if (!firstVal || !lastVal) {
+        console.warn('Both fields are required'); // אפשר גם alert אם תרצה
+        return; // מפסיק כאן אם יש שדה ריק
+      }
+
+      // NEW: יוצר li לכל ערך
+      const liFirst = document.createElement('li');
+      liFirst.textContent = `First name: ${firstVal}`;
+
+      const liLast = document.createElement('li');
+      liLast.textContent = `Last name: ${lastVal}`;
+
+      // NEW: מצרף את ה-li לרשימה שמתחת לטופס
+      answersList.append(liFirst, liLast);
+
+      // NEW: מנקה את הטופס אחרי ההוספה (לא חובה)
+      form.reset();
+    });
+  </script>
+</body>
+</html>
