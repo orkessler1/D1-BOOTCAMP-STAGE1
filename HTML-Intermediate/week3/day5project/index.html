@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8" />
+  <title>Coloring Squares</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>🎨 Coloring Squares</h1>
+
+    <!-- צד שמאל: פלטת צבעים וכלים -->
+    <aside class="sidebar">
+      <div>
+        <strong>בחרו צבע</strong>
+        <div id="palette" class="palette" aria-label="Color palette"></div>
+      </div>
+
+      <div class="tools">
+        <div class="row">
+          <button id="eraser" title="צבע לבן">מחק</button>
+          <button id="clear">ניקוי</button>
+        </div>
+
+        <div class="input-row">
+          <label for="size">גודל הרשת:</label>
+          <input id="size" type="number" min="4" max="48" value="16" />
+          <button id="applySize">החל</button>
+        </div>
+      </div>
+    </aside>
+
+    <!-- צד ימין: הקנבס -->
+    <section class="canvas-wrap">
+      <strong>ציירו חופשי</strong>
+      <div id="canvas" class="canvas" aria-label="Drawing canvas"></div>
+    </section>
+  </div>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>

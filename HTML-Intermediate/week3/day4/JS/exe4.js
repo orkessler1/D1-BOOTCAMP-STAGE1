@@ -1,0 +1,1 @@
+const isSum = (a ,b) => a+b ; 

@@ -1,0 +1,87 @@
+:root{
+  --size:16;      /* מספר התאים לשורה/עמודה (16x16) */
+  --cell:28px;    /* גודל תא בודד */
+  --gap:4px;      /* רווח בין תאים */
+}
+
+*{ box-sizing:border-box; }
+body{
+  margin:0;
+  font-family:system-ui, Arial, sans-serif;
+  background:#f6f7fb;
+  color:#222;
+  min-height:100dvh;
+  display:grid;
+  place-items:center;
+}
+
+.app{
+  width:min(1000px, 95vw);
+  background:#fff;
+  border-radius:16px;
+  box-shadow:0 10px 30px rgba(0,0,0,.07);
+  padding:20px;
+  display:grid;
+  grid-template-columns:220px 1fr; /* שמאל: פלטה; ימין: קנבס */
+  gap:20px;
+}
+
+h1{
+  grid-column:1 / -1;
+  font-size:20px;
+  margin:0 0 10px;
+}
+
+/* --- סיידבר --- */
+.sidebar{
+  display:grid;
+  grid-template-rows:auto auto 1fr;
+  gap:16px;
+}
+.palette{
+  display:grid;
+  grid-template-columns:repeat(6, 1fr);
+  gap:8px;
+}
+.swatch{
+  width:28px;height:28px;
+  border-radius:6px;
+  border:2px solid #ddd;
+  cursor:pointer;
+  transition:transform .08s ease;
+}
+.swatch:hover{ transform:translateY(-1px); }
+.swatch[aria-current="true"]{ outline:3px solid #222; }
+
+.tools{ display:grid; gap:8px; }
+.tools .row{ display:flex; gap:8px; }
+button, .input-row input[type="number"]{
+  font:inherit;
+  padding:8px 10px;
+  border:1px solid #d8d8e0;
+  border-radius:8px;
+  background:#fafafa;
+  cursor:pointer;
+}
+button:hover{ background:#f0f0f5; }
+.input-row{ display:flex; align-items:center; gap:8px; }
+
+/* --- קנבס --- */
+.canvas-wrap{ display:grid; align-content:start; gap:10px; }
+.canvas{
+  display:grid;
+  grid-template-columns:repeat(var(--size), var(--cell));
+  grid-auto-rows:var(--cell);
+  gap:var(--gap);
+  background:#f1f2f6;
+  padding:var(--gap);
+  border-radius:12px;
+  user-select:none;
+  touch-action:none;
+}
+.cell{
+  width:var(--cell); height:var(--cell);
+  background:#fff;
+  border-radius:6px;
+  border:1px solid #e5e7ee;
+}
