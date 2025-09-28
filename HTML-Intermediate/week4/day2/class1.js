@@ -38,5 +38,18 @@ console.log(`${name} scored ${maths} in Maths and ${science} in Elementary Scien
 // John Doe scored 74 in Maths and 50 in Elementary Science.
 
 
+let obj = {foo: 1, bar: 2};
+let newObj = {...obj, baz: 3}
+console.log(newObj) //{ foo: 1, bar: 2, baz: 3 }
+
+// If property keys clash, the property that is mentioned last “wins”:
+let obj = {foo: 1, bar: 2, baz: 3};
+let newObj = {...obj, foo: true}
+console.log(newObj) //{ foo: true, bar: 2, baz: 3 }
+
+let newObj =  {foo: true, ...obj}
+console.log(newObj) //{ foo: 1, bar: 2, baz: 3 }
+
+
 
 

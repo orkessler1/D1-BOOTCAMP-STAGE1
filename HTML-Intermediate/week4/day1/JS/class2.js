@@ -54,3 +54,30 @@ let [c, d, ...restt] = [10, 20, 30, 40, 50];
 console.log('c: ',c); // c: 10
 console.log('d: ',d); // d: 20
 console.log('rest: ',restt); // [30, 40, 50]
+
+
+
+const rainbow = ['red', 'orange', 'yellow'];
+const rainbowClone = rainbow;
+
+// Both rainbow and rainbowClone point to the same
+// array reference in memory, hence it logs (true)
+console.log(rainbow === rainbowClone); // true
+
+rainbow.push("violet");
+console.log(rainbow); //['red', 'orange', 'yellow', 'violet']
+console.log(rainbowClone); // ['red', 'orange', 'yellow', 'violet']
+
+
+
+const rainboww = ['red', 'orange', 'yellow'];
+
+// Cloning with array destructuring and spread operator
+const [...rainbowwClone] = rainboww;
+
+console.log(rainboww === rainbowwClone); // false
+console.log(rainbowwClone); // ['red', 'orange', 'yellow']
+
+rainbow.push("violet");
+console.log(rainboww); //['red', 'orange', 'yellow', 'violet']
+console.log(rainbowwClone); // ['red', 'orange', 'yellow']

@@ -60,8 +60,8 @@ const liByChildren = document.body.children[1].children[1];
 console.log(liBySelector.textContent); // "Pete"
 console.log(liByChildren.textContent); // "Pete"
 
-const di = document.querySelector("div") ; 
-const di = document.body.firstElementChild;
+const div = document.querySelector("div") ; 
+const dis = document.body.firstElementChild;
 
 // כל ה-UL בעמוד (NodeList)
 const uls = document.querySelectorAll("ul");
