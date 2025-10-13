@@ -56,3 +56,25 @@ const getGifs = () => {
 };
 
 getGifs();
+
+
+
+async function fetchStarship() {
+  try {
+    const url = "https://www.swapi.tech/api/starships/9/";
+    const res = await fetch(url);
+
+    if (!res.ok) {
+      // אם הסטטוס לא 2xx – נזרוק שגיאה עם הסטטוס
+      const text = await res.text().catch(() => "");
+      throw new Error(`HTTP ${res.status} ${res.statusText}${text ? " — " + text : ""}`);
+    }
+
+    const data = await res.json();
+    console.log(data.result); // בדיוק כמו בקוד שלך
+  } catch (err) {
+    console.error("Error:", err.message);
+  }
+}
+
+fetchStarship();
