@@ -1,0 +1,44 @@
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day4/JS/exe1.js
+suggestions for improvement:
+- This submission contains no executable code related to exercises 2-8. It only contains explanations for exercise 1.
+- Please provide a complete submission that includes code addressing all the exercises, not just comments.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day4/JS/exe2.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day4/JS/exe3.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day4/JS/exe4.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day4/JS/exe5.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day4/JS/exe6.js
+suggestions for improvement:
+- The provided code appears to be an attempt at exercise 6. The self-invoking function is not properly structured. It's defined but not immediately invoked, which is the defining characteristic of a self-invoking function. Also, there are syntax errors in the string concatenation. The goal of the exercise is to display the sentence in the DOM, but this part is not complete because the function is not invoked.
+- To make the function self-invoking, wrap the function definition in parentheses and immediately follow it with another set of parentheses containing the arguments.
+- Correct the string concatenation using template literals properly.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day4/JS/exe7.js
+suggestions for improvement:
+- The provided code only implements the 'Fortune teller' exercise (Exercise 6).
+- Consider implementing solutions for all the exercises outlined in the chapter content.
+Correctness: 20%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day4/exe1.html
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
