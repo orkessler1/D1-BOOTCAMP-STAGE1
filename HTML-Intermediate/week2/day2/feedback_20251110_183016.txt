@@ -1,0 +1,23 @@
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week2/day2/class22.py
+suggestions for improvement:
+- The code contains various unrelated snippets demonstrating inheritance, polymorphism, and exception handling. To improve, focus each snippet to directly address a specific exercise from the chapter content.
+- Add comments to explain the purpose of each class and method, making the code easier to understand.
+- Use more descriptive variable names to enhance readability.
+- Ensure that the code demonstrates each concept in a clear and isolated manner, aligning with the chapter's learning objectives.
+- Structure the code to reflect the order and requirements of the exercises, creating a more cohesive learning experience.
+Correctness: 60%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week2/day2/exce22.py
+suggestions for improvement:
+- Consider adding more comments to improve the understanding of each step, especially for the play method.
+- The `play` method could be simplified by using a list comprehension to extract names. Although the current code is efficient and readable, other Pythonic approaches are available.
+- The test section `if __name__ == '__main__':` is well written and follows the instructions provided in the prompt.
+Correctness: 100%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week2/day2/exercise22.py
+suggestions for improvement:
+- In the `Person` class initialization, the `last_name` should be initialized to an empty string as default.
+- In the `born` method of the `Family` class, the `Person` class must have the `last_name` parameter in the init to get the last_name parameter when creating the object. there's no need to update the `last_name` of the member after the object is created.
+- The example code given on Exercise 3 gives too much of the solution, making the exercise less challenging.
+Correctness: 75.0%
+-----

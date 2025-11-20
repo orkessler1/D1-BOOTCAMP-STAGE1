@@ -1,0 +1,76 @@
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day3/CSS/solot.css
+suggestions for improvement:
+- The provided code is CSS styling for buttons. This is unrelated to any of the JavaScript DOM manipulation or event handling exercises described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day3/JS/class1.js
+suggestions for improvement:
+- The provided JavaScript code appears to be an attempt to handle form submission and retrieve input values. However, it doesn't directly address the specific instructions given in Exercise 2 of the chapter content. The code uses an alert to display the values instead of creating list items and appending them to a ul element as requested.
+- The code lacks the DOM manipulation required to create and append list items to the `ul` element. It also doesn't incorporate checks to ensure the input fields are not empty before proceeding.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day3/JS/exe3.js
+suggestions for improvement:
+- The HTML paragraph needs an ID for the JavaScript to select it. Add id="para" to the paragraph tag.
+- Consider directly using the `allBoldItems` variable instead of repeatedly calling `getBoldItems()` in `highlight()` and `returnItemsToDefault()` if it's already populated.  This could improve performance slightly.
+- Check for null values after using `document.getElementById()` to avoid errors if the element doesn't exist.
+Correctness: 75%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day3/JS/exe4.js
+suggestions for improvement:
+- The code calculates the volume but it doesn't display the result in the volume input as required by the instructions. It only console logs the result.
+- The code has a comment in Hebrew, it should be removed
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day3/JS/solot.js
+suggestions for improvement:
+- The provided code appears to be testing various event listeners on a button element. However, it doesn't directly address any of the exercises or instructions outlined in the chapter content (Exercises 1-4). The chapter covers DOM manipulation, event handlers, forms, and sphere volume calculation. The code provided is unrelated to those topics.
+- The exercise asks to create an HTML button, but there isn't any.
+- The exercise requires to style some paragraph in the DOM
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day3/Solot.html
+suggestions for improvement:
+- The provided HTML code does not address any of the exercises in the chapter content. It only includes a button element with an ID 'jsstyle'. There is no attempt to work with the DOM, event handlers, or forms as required by the exercises.
+Correctness: 0.0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day3/class1.html
+suggestions for improvement:
+- No javascript code was provided to address the questions from the exercises.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day3/domeventsclass.html
+suggestions for improvement:
+- This code is completely unrelated to the exercises provided in the chapter content. The exercises focus on manipulating the DOM, handling events, and working with forms, whereas the provided code implements styling and interactivity for a button element.
+- The code doesn't address any of the specific tasks outlined in Exercises 1, 2, 3, or 4 (e.g., changing article content, working with form inputs, transforming sentences, calculating sphere volume).
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day3/exe1.html
+suggestions for improvement:
+- The bonus exercises were not attempted.
+- Consider adding error handling, for instance, if the article or h2/h3 elements are not found.
+Correctness: 80%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day3/exe1anim.html
+suggestions for improvement:
+- The provided code appears to implement a timer and interval functionality, which is not aligned with the DOM manipulation, event handling, and form-related tasks described in the chapter content/questions. The code does not address any of the specific exercises or instructions given.
+- The code should be rewritten to address the exercises presented in the chapter, focusing on DOM manipulation, event listeners, and form interactions as outlined in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day3/exe2.html
+suggestions for improvement:
+- Consider adding more comments to explain the purpose of certain sections of code.
+- Using template literals (``) for creating the `li` elements makes the code more readable.
+Correctness: 100%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day3/exe3.html
+suggestions for improvement:
+- This HTML file is part of Exercise 3, but it's missing the Javascript file.  It needs to include the Javascript code to get any correctness score.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day3/exe4.html
+suggestions for improvement:
+- The provided HTML code represents the structure of a form for calculating the volume of a sphere, but it lacks the JavaScript code required to implement the calculation and handle user input as described in Exercise 4. The instructions specifically ask for a JavaScript program to calculate the volume; without it, the exercise is incomplete.
+- Include the JavaScript logic to handle form submission, retrieve the radius value, calculate the volume, and display the result in the 'volume' input field.
+Correctness: 0%
+-----

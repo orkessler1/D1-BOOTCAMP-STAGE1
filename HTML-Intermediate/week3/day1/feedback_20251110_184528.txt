@@ -1,0 +1,48 @@
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day1/JS/exeday1.js
+suggestions for improvement:
+- In Exercise 1, Part II, the loop doesn't exit after logging "Devon". Consider adding a `break` statement after the `console.log("Devon")` to fulfill the requirement.
+- In Exercise 2, the bonus part is not handled by the solution, this part is missing and should be implemented.
+- In Exercise 5, the requirements are to console log the keys and the values separately, instead the solution prints into the page.
+Correctness: 95%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day1/JS/script.js
+suggestions for improvement:
+- The code appears to be a collection of various JavaScript snippets, possibly from different exercises or examples. It doesn't directly address any single exercise in the provided chapter content.
+- The code includes variable declarations, string concatenation, DOM manipulation, array operations, and conditional statements, but these are not organized to solve the specific problems posed in the chapter.
+- The use of `document.getElementById` suggests the code is intended to run in a browser environment with specific HTML elements, which are not defined in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day1/JS/script1.js
+suggestions for improvement:
+- The provided code does not address any of the exercises or topics (Variables, Conditionals, Loops, Objects) outlined in the chapter content. It introduces unrelated concepts such as user objects, a database array, and a newsfeed array, along with DOM manipulation elements that are not requested in the exercises.
+- The code is reasonably readable with clear variable names and comments, but it could be improved by removing the irrelevant parts.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day1/JS/script2.js
+suggestions for improvement:
+- The provided code is unrelated to the chapter content, which focuses on variables, conditionals, loops, and objects.
+- The code iterates from 0 to 15 and prints whether each number is even or odd, which is not part of any of the exercises provided.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day1/exesriseday1.html
+suggestions for improvement:
+- The provided code seems to be an HTML file that sets up a webpage with placeholders and links to a JavaScript file (exeday1.js). It does not contain any JavaScript code directly addressing the exercises outlined in the provided chapter content. Therefore, it is irrelevant to the exercises.
+- To address the exercises, the JavaScript file (exeday1.js) needs to contain code that manipulates arrays, uses conditional statements, implements loops, and works with objects as described in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day1/index.html
+suggestions for improvement:
+- The HTML file provided does not contain any JavaScript code that addresses the exercises outlined in the chapter content.
+- The HTML file only sets up a basic structure with placeholders (paragraph elements) where data could potentially be displayed, but it doesn't actually execute any of the required logic (variables, conditionals, loops, objects).
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day1/index1.html
+suggestions for improvement:
+- This HTML file appears to be part of a larger web application, but it doesn't directly address any of the JavaScript exercises outlined in the chapter content. It loads an external JavaScript file (script1.js), but without the content of that file, it's impossible to determine if it's related to variables, conditionals, loops, or objects.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day1/index2.html
+suggestions for improvement:
+- The HTML file is not relevant to the JavaScript exercises provided. The exercises require JavaScript code that manipulates arrays, uses loops, and works with objects, none of which are addressed in this HTML structure.
+Correctness: 0%
+-----

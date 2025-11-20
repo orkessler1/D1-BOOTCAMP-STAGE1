@@ -1,0 +1,13 @@
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week2/day5/anagram_checker.py
+suggestions for improvement:
+- Implement the `is_anagram` method as described in Step 3 of the instructions.
+- Implement the `get_anagrams` method as described in Step 4 of the instructions.
+- Ensure that the wordlist file is loaded relative to the script's location and that any potential `FileNotFoundError` is handled.
+- Consider making the wordlist loading more robust by handling different file encodings.
+Correctness: 30%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week2/day5/word.txt
+suggestions for improvement:
+- The submitted content is just a list of words, not a Python program implementing the AnagramChecker class and the user interface as described in the problem description.  It doesn't address the OOP, file I/O, string manipulation, or algorithm design aspects outlined in the instructions.
+Correctness: 0.0%
+-----
