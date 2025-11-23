@@ -1,0 +1,38 @@
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week5/day3/class1.js
+suggestions for improvement:
+- The provided code does not address any of the exercises outlined in the chapter content. It defines a simple `Person` class with a constructor and `getFullName` method, which is unrelated to access modifiers, readonly properties, inheritance, static members, or interfaces as described in the learning objectives and exercises.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week5/day3/class1.ts
+suggestions for improvement:
+- The provided code does not address any of the exercises described in the chapter content. It defines a simple `Person` class, which is unrelated to access modifiers, readonly properties, inheritance, static members, or interfaces.
+- The code should be rewritten to implement the exercises related to access modifiers, readonly properties, inheritance, static properties/methods and interfaces as described in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week5/day3/class2.ts
+suggestions for improvement:
+- The code does not address any of the exercises provided in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week5/day3/exe1.ts
+suggestions for improvement:
+- Consider adding comments in English for better understanding by a broader audience.
+- The code is well-structured, but minor formatting adjustments could further enhance readability.
+Correctness: 100%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week5/day3/package-lock.json
+suggestions for improvement:
+- The submission contains a package-lock.json file, which is not code related to the exercises described in the chapter content. Therefore, it does not address any of the given instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week5/day3/package.json
+suggestions for improvement:
+- This submission provides a package.json file, which is unrelated to the TypeScript exercises described in the chapter content. The exercises involve creating classes, interfaces, and methods using TypeScript syntax.
+- The submission should contain TypeScript code that addresses the specific instructions provided in each exercise.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week5/day3/tsconfig.json
+suggestions for improvement:
+- The provided code is a `tsconfig.json` file, which configures the TypeScript compiler. This file doesn't implement any of the exercises described in the chapter content. Therefore, it is completely irrelevant to the problem.
+Correctness: 0%
+-----

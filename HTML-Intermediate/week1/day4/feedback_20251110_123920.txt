@@ -1,0 +1,11 @@
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week1/day4/exercise4.py
+suggestions for improvement:
+- Consider using f-strings consistently for better readability.
+- For Exercise 4, clarify the prompt for user input to align better with the exercise's objective.
+- You could use more descriptive variable names to enhance code clarity.
+Brief justification:
+- correctness: The code accurately addresses each exercise. Each function performs the specified task correctly, meeting the expected outputs. All tasks are implemented according to the chapter content.
+- readability: The code is generally readable, with functions and variables named appropriately. The use of comments is minimal, but the code is straightforward enough to understand. Some areas, like the number guessing game, would benefit from additional comments explaining the logic.
+- performance: The code demonstrates efficient use of Python features. The use of list comprehensions in the magician's exercise is a good example of writing performant code. The solutions are optimized for the given tasks.
+- security: The code doesn't involve any user input that could pose a security risk, and there are no file operations or network requests. Therefore, the security aspect is well-handled.
+

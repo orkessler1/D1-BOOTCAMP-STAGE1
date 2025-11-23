@@ -1,0 +1,10 @@
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week1/day3/exercise3.py
+suggestions for improvement:
+- For the Cinemax exercise, consider using more descriptive variable names for the price (e.g., `ticket_price` instead of `price`).
+- In the Disney exercise, creating `nums = [0, 1, 2, 3, 4]` could be simplified by using `range(len(users))`.
+Brief justification:
+- correctness: All exercises are correctly implemented. Exercise 1 correctly converts lists to a dictionary using `zip`. Exercise 2 correctly calculates ticket prices based on age. Exercise 3 accurately manipulates the Zara dictionary. Exercise 4 generates the required dictionaries based on Disney character lists, including sorting and mapping.
+- readability: The code is generally readable, with clear variable names and comments. However, some minor improvements could enhance readability, such as more descriptive variable names in the Cinemax exercise.
+- performance: The code is performant, using efficient methods like `zip` and dictionary comprehensions. No significant performance bottlenecks are apparent.
+- security: The code doesn't directly interact with user input in a way that introduces security vulnerabilities. No specific security concerns are identified.
+
