@@ -1,0 +1,11 @@
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week1/day2/day2-practice.py
+suggestions for improvement:
+- Remove or comment out irrelevant code snippets that don't belong to any specific exercise to improve clarity.
+- Consistently use descriptive variable names to enhance code readability.
+- In Exercise 6, ensure the input is checked for both digits and length, as requested in the prompt, using `.isdigit()` and `len()` functions.
+Brief justification:
+- correctness: The code addresses most of the exercises accurately.  Exercise 1 (sets), Exercise 3 (list manipulation), Exercise 4 (floats), Exercise 5 (loops), Exercise 7 (favorite fruits), Exercise 8 (pizza toppings), and Exercise 9 (cinemax tickets), and Exercise 10(sandwich orders) are mostly correct. However, Exercise 6 requires improved input validation.  Exercise 2 just implements the idea and doesn't add more integers to it.
+- readability: The code is generally readable but could benefit from more consistent use of descriptive variable names and comments, especially to clarify the purpose of different code blocks.
+- performance: The code generally performs well. There are no significant performance bottlenecks.
+- security: The code appears to be secure, with no obvious vulnerabilities.
+
