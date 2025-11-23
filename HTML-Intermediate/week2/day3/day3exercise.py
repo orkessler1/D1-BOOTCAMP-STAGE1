@@ -51,14 +51,10 @@ class Currency:
         return NotImplemented
 
 
-# ---------- Exercise 3 ----------
-
 def random_string(length=5):
     letters = string.ascii_letters
     return "".join(random.choice(letters) for _ in range(length))
 
-
-# ---------- Exercise 4 & 5 ----------
 
 def current_date():
     return datetime.today().date()
@@ -70,8 +66,6 @@ def time_until_january_first():
     jan_first = datetime(next_year, 1, 1)
     return jan_first - now
 
-
-# ---------- Exercise 7 ----------
 
 faker = Faker()
 
@@ -89,14 +83,4 @@ def generate_users(num_users):
 
 
 if __name__ == "__main__":
-    # דוגמאות לבדיקה עצמית – לא משפיעות על הבודק
-    c1 = Currency("dollar", 5)
-    c2 = Currency("dollar", 10)
-    print(c1)
-    print(c1 + 5)
-    print(c1 + c2)
-
-    print(random_string())
-    print(current_date())
-    print(time_until_january_first())
-    print(generate_users(2))
+    pass
