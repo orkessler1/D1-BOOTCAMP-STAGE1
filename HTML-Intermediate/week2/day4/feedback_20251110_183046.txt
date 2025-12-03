@@ -1,0 +1,38 @@
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week2/day4/class24.py
+suggestions for improvement:
+- The code does not address the instructions of Exercise 1 or Exercise 2. It includes regular expression examples and some file operations that are loosely related to the topics but do not implement the specific functionality asked for.
+- The submission does not attempt to generate random sentences from a word list or work with JSON data as specified in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week2/day4/execrcise24.py
+suggestions for improvement:
+- The first part of the code related to the random sentence generator doesn't fully align with the instructions. It reads names from a file (assuming 'nameslist.txt' exists, which isn't the provided 'words.zip'), and picks random names, instead of creating a random sentence of a given length based on a word list.
+- The input validation for the sentence length is missing. The code should check if the input is an integer and within the specified range (2-20).
+- The date format in the JSON exercise should be 'YYYY-MM-DD' as requested, not 'DD.MM.YYYY'.
+- Consider moving file operations to the beginning of the script or wrapping them in try-except blocks for better error handling, especially for the random sentence generator part.
+Correctness: 60%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week2/day4/file.json
+suggestions for improvement:
+- The submission only provides a JSON object and does not include any code to achieve the steps outlined in Exercise 2.
+- The submission misses the parsing of JSON, accessing the nested salary, and saving the modified JSON to a file using Python.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week2/day4/index.py
+suggestions for improvement:
+- The JSON example is completely ignored, and instead the code uses it's own file and adds a key 'favorite_color'.
+- The second half of the code appears to be related to making HTTP requests, which is outside the scope of the exercises presented. This code should be removed.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week2/day4/jsonpractice.py
+suggestions for improvement:
+- The code does not attempt to solve any of the exercises outlined in the chapter content. It demonstrates basic JSON writing, but is unrelated to Exercise 1 or Exercise 2.
+- The code lacks any input validation or error handling, as suggested in Exercise 1.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week2/day4/nameslist.txt
+suggestions for improvement:
+- The provided code appears to be a list of names, not a Python program addressing the exercises' goals.
+- The code does not implement any of the required functionality: file handling, random sentence generation, JSON parsing/modification, or data manipulation.
+Correctness: 0.0%
+-----
