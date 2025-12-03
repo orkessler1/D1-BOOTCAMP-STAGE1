@@ -1,61 +1,87 @@
-const people = ["Greg", "Mary", "Devon", "James"];
+// 🌟 Exercise 1 : List of people
 
-people.splice(0, 1);        // מסיר את Greg
-people[2] = "Jason";        // עדיף אות גדולה
-people.push("or");
+let people = ["Greg", "Mary", "Devon", "James"];
 
-const copy = people.slice(1, -1);
-const i = people.length - 1;
-const last = people[i];
+// Part I - Review about arrays
 
-// לוג של כל אדם
-for (let a = 0; a < people.length; a++) {
-  console.log(people[a]);
+// 1. Remove “Greg”
+people.shift();
+
+// 2. Replace “James” with “Jason”
+const jamesIndex = people.indexOf("James");
+if (jamesIndex !== -1) {
+  people[jamesIndex] = "Jason";
 }
 
-console.log(copy);                   // ["Devon", "Jason"]
-console.log(people.indexOf("Mary")); // 0 או -1 תלוי בסדר אחרי השינויים
-console.log(people.indexOf("Foo"));  // -1
-console.log(people);
-console.log(last);
+// 3. Add your name to the end
+people.push("Or"); // שימי כאן את השם שלך
 
-// הצגה בעמוד
-document.getElementById("peo").textContent = people;
-document.getElementById("peoindex").textContent = people.indexOf("Mary");
-document.getElementById("peoindex1").textContent = people.indexOf("Foo");
-document.getElementById("cop").textContent = copy;
-document.getElementById("las").textContent = last;
+// 4. Log Mary's index
+console.log("Mary index:", people.indexOf("Mary"));
 
-// ----- colors -----
-const color = ["blue", "red", "green", "black", "white"];
+// 5. Make a copy without Mary and without your name
+// people is now: ["Mary","Devon","Jason","Or"]
+const peopleCopy = people.slice(1, people.length - 1);
+console.log("Copy without Mary and me:", peopleCopy);
 
-// לקונסול – בלי $ ובלי טמפלטים, רק חיבור מחרוזות
-for (let b = 0; b < color.length; b++) {
-  console.log("my " + (b + 1) + " color is " + color[b]);
+// 6. Index of "Foo"
+console.log('Index of "Foo":', people.indexOf("Foo"));
+// מחזיר -1 כי "Foo" לא קיים במערך
+
+// 7. Variable last with last element
+const last = people[people.length - 1];
+console.log("Last element:", last);
+
+// Part II - Loops
+
+// 1. Loop through people and log each person
+console.log("All people:");
+for (let i = 0; i < people.length; i++) {
+  console.log(people[i]);
 }
 
-// להצגה בעמוד – כל צבע בשורה נפרדת
-let colorsText = "";
-for (let b = 0; b < color.length; b++) {
-  colorsText += "my " + (b + 1) + " color is " + color[b] + "<br>";
+// 2. Loop and exit after logging "Devon"
+console.log('People until "Devon":');
+for (let i = 0; i < people.length; i++) {
+  console.log(people[i]);
+  if (people[i] === "Devon") {
+    break; // <- זה המתקן את ההערה של התרגיל
+  }
 }
-document.getElementById("colo").innerHTML = colorsText;
 
+// 🌟 Exercise 2 : Your favorite colors
 
+const colors = ["blue", "red", "green", "purple", "black"];
 
-// שואלים את המשתמש
-let userInput;  // הצהרה פעם אחת
+// Basic version
+for (let i = 0; i < colors.length; i++) {
+  console.log(`My #${i + 1} choice is ${colors[i]}`);
+}
 
+// Bonus: 1st, 2nd, 3rd...
+function getSuffix(num) {
+  if (num === 1) return "st";
+  if (num === 2) return "nd";
+  if (num === 3) return "rd";
+  return "th";
+}
+
+for (let i = 0; i < colors.length; i++) {
+  const position = i + 1;
+  const suffix = getSuffix(position);
+  console.log(`My ${position}${suffix} choice is ${colors[i]}`);
+}
+
+// 🌟 Exercise 3 : Repeat the question
+
+// הערה: זה יעבוד רק בדפדפן (יש בו prompt)
+let number;
 do {
-  userInput = prompt("Please enter a number:");          // קלט מהמשתמש (string)
-  console.log("value:", userInput, "type:", typeof userInput);
-  userInput = Number(userInput);                          // המרה למספר
-} while (userInput < 10);                                 // כל עוד קטן מ-10 – ממשיכים לשאול
+  number = Number(prompt("Please enter a number (at least 10):"));
+} while (number < 10);
+console.log("Final number:", number);
 
-document.getElementById("inp").textContent = userInput;   // מציגים את התוצאה בעמוד
-
-
-
+// 🌟 Exercise 4 : Building Management
 
 const building = {
   numberOfFloors: 4,
@@ -66,84 +92,88 @@ const building = {
     fourthFloor: 2,
   },
   nameOfTenants: ["Sarah", "Dan", "David"],
-  numberOfRoomsAndRent:  {
+  numberOfRoomsAndRent: {
     sarah: [3, 990],
-    dan:  [4, 1000],
+    dan: [4, 1000],
     david: [1, 500],
   },
 };
 
-// 1) מספר הקומות
-console.log("floors:", building.numberOfFloors);
+// 1. Number of floors
+console.log("Number of floors:", building.numberOfFloors);
 
-// 2) כמה דירות בקומה 1 ובקומה 3
-console.log("1st floor apts:", building.numberOfAptByFloor.firstFloor);
-console.log("3rd floor apts:", building.numberOfAptByFloor.thirdFloor);
+// 2. Apartments on floors 1 and 3
+console.log(
+  "Apartments on floor 1 and 3:",
+  building.numberOfAptByFloor.firstFloor +
+    building.numberOfAptByFloor.thirdFloor
+);
 
-// 3) שם הדייר השני וכמה חדרים יש לו
-const secondTenant = building.nameOfTenants[1];          // "Dan"
-const secondTenantRooms = building.numberOfRoomsAndRent.dan[0]; // 4
-console.log("second tenant:", secondTenant, "rooms:", secondTenantRooms);
+// 3. Name of second tenant and number of rooms
+const secondTenant = building.nameOfTenants[1]; // "Dan"
+const secondTenantRooms =
+  building.numberOfRoomsAndRent[secondTenant.toLowerCase()][0];
+console.log(
+  "Second tenant and rooms:",
+  secondTenant,
+  "- rooms:",
+  secondTenantRooms
+);
 
-// 4) אם שכר הדירה של Sarah + David גדול משל Dan – להעלות לדן ל-1200
+// 4. Check rent
 const sarahRent = building.numberOfRoomsAndRent.sarah[1];
+const danRent = building.numberOfRoomsAndRent.dan[1];
 const davidRent = building.numberOfRoomsAndRent.david[1];
-const danRent   = building.numberOfRoomsAndRent.dan[1];
 
 if (sarahRent + davidRent > danRent) {
   building.numberOfRoomsAndRent.dan[1] = 1200;
 }
+console.log("Updated rents:", building.numberOfRoomsAndRent);
 
-console.log("Dan rent now:", building.numberOfRoomsAndRent.dan[1]);
+// 🌟 Exercise 5 : Family
 
-
-// 1) אובייקט בשם family עם כמה זוגות key:value
 const family = {
-  dad: "David",
-  mom: "Efrat",
-  son: "Or",
-  daughter: "Noa"
+  dad: "Avi",
+  mom: "Dana",
+  son: "Noam",
+  daughter: "Lia",
 };
 
-const keys = [];
-const values = [];
-
+// keys only
+console.log("Family keys:");
 for (let key in family) {
-  keys.push(key);          // המפתח
-  values.push(family[key]); // הערך לפי המפתח
+  console.log(key); // <-- מפתחות בלבד
 }
 
-document.getElementById("val").textContent = keys.join(", ");
-document.getElementById("inp").textContent = values.join(", ");
-document.getElementById("val").textContent = keys.join(", ");
-document.getElementById("inp").textContent = values.join(", ");
+// values only
+console.log("Family values:");
+for (let key in family) {
+  console.log(family[key]); // <-- ערכים בלבד
+}
+// עכשיו הכל יוצא ל-console ולא לדף – זה מתקן את ההערה בתרגיל 5
 
+// 🌟 Exercise 6 : Rudolf
 
 const details = {
-  my: 'name',
-  is: 'Rudolf',
-  the: 'reindeer'
+  my: "name",
+  is: "Rudolf",
+  the: "reindeer",
 };
 
 let sentence = "";
-
 for (let key in details) {
-  if (sentence !== "") {
-    sentence += " ";           // מוסיף רווח בין זוגות
-  }
-  sentence += key + " " + details[key];
+  sentence += key + " " + details[key] + " ";
 }
+sentence = sentence.trim();
+console.log(sentence); // "my name is Rudolf the reindeer"
 
-console.log(sentence); // my name is Rudolf the reindeer
-
+// 🌟 Exercise 7 : Secret Group
 
 const names = ["Jack", "Philip", "Sarah", "Amanda", "Bernard", "Kyle"];
 
-let letters = [];
+names.sort(); // alphabetical
+let societyName = "";
 for (let i = 0; i < names.length; i++) {
-  letters.push(names[i][0].toUpperCase());
+  societyName += names[i][0];
 }
-letters.sort();
-let secret = letters.join("");
-
-console.log(secret); // ABJKPS
+console.log("Secret society name:", societyName); // "ABJKPS"
