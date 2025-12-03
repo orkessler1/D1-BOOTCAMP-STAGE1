@@ -1,0 +1,49 @@
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day1/JS/exeday1.js
+suggestions for improvement:
+- This code does not address the chapter content at all. The chapter focuses on basic JavaScript concepts such as variables, conditionals, loops, and objects, along with array methods. The provided code is a collection of unrelated JavaScript exercises that cover topics such as DOM manipulation, number calculations, and string manipulation, none of which directly correspond to the chapter's learning objectives.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day1/JS/script.js
+suggestions for improvement:
+- The provided code includes general JavaScript examples covering variables, prompts, alerts, arrays, and conditional statements, but it does not directly address the specific exercises outlined in the chapter content. It's a collection of unrelated code snippets.
+- The code lacks solutions to the list of people array manipulations, favorite colors looping, number prompting with validation, building management object access/modification, family object iteration, Rudolf object string construction, and secret group name generation which are required by the excercise.
+- The focus is on basic Javascript features but without tying it to the problems posed by the course material
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day1/JS/script1.js
+suggestions for improvement:
+- The code is not relevant to the exercises given.
+- Consider focusing on the provided exercises to better align with the learning objectives.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day1/JS/script2.js
+suggestions for improvement:
+- The provided code does not address any of the exercises outlined in the chapter content.
+- The code calculates and displays whether numbers from 0 to 15 are even or odd, which is irrelevant to the array manipulation, loops, conditionals, and object exercises presented in the chapter.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day1/exesriseday1.html
+suggestions for improvement:
+- The HTML provided is not relevant to the JavaScript exercises. It only sets up a basic HTML structure with some paragraph elements and links to a JavaScript file. The actual JavaScript code that would address the exercises is missing.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day1/index.html
+suggestions for improvement:
+- The HTML provided is unrelated to the JavaScript exercises outlined in the chapter content. It sets up an HTML structure with paragraph elements and includes script tags, but it doesn't implement any of the required logic (variables, conditionals, loops, objects).
+- To address the exercises, you need to write JavaScript code that manipulates arrays, uses loops, and works with objects as described in the instructions.  The HTML file serves as a place to potentially display the results, but the core logic must be in JavaScript.
+Correctness: 0.0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day1/index1.html
+suggestions for improvement:
+- The provided code is an HTML file that appears to be setting up a webpage to display data from a JavaScript file (script1.js). This HTML structure does not directly address any of the JavaScript concepts outlined in the chapter content (Variables, Conditionals, Loops, Objects).
+- The HTML provides the structure for displaying data, but it doesn't implement any of the required JavaScript logic. Therefore, it is entirely disconnected from the exercises.
+- To make this relevant, the JavaScript file linked in the HTML file should implement the exercises.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day1/index2.html
+suggestions for improvement:
+- The provided code is an HTML file, not the JavaScript code required to solve the exercises.
+- The HTML sets up a basic page but doesn't include any JavaScript that addresses the problems outlined in the chapter content (variables, conditionals, loops, objects).
+- To address the exercises, a JavaScript file with the solutions to each problem must be created and linked within the HTML.
+Correctness: 0%
+-----
