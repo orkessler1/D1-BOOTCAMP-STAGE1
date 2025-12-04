@@ -1,0 +1,12 @@
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week2/day1/day4exercise.py
+suggestions for improvement:
+- In the Cats exercise, the function `describe_and_oldest` prints details but the instructions specifically asked for a formatted string: "The oldest cat is `<cat_name>`, and is `<cat_age>` years old." The current function's output doesn't perfectly match this format.
+- In the Zoo exercise, only basic functionality is implemented. Missing are sort_animals and get_groups methods.
+- Add docstrings to explain the purpose of each class and method.
+- The code has some output statements due to `print("Running:", __file__)`. Ideally, this shouldn't be present in the final submission. These lines may be useful for debugging, but they don't contribute to the solution.
+Brief justification:
+- correctness: The code correctly implements the classes and methods described in the exercises, including instantiation, attribute assignment, and method calls. The Cats exercise finds the oldest cat and prints details, although the printing format deviates slightly from instructions. The Dogs exercise is fully implemented and correct. The Songs exercise is also correctly implemented. However, the Zoo exercise is only partially implemented; it's missing the sort_animals and get_groups functionalities, and only includes add_animal, get_animals, and sell_animal, reducing the overall correctness score.
+- readability: The code is generally well-structured and uses meaningful variable names. There is a mix of English and Hebrew comments which can be improved.
+- performance: The code's performance is adequate for the given problem size. The algorithms used are simple and efficient for the scale of data involved.
+- security: There are no apparent security vulnerabilities in the code. It doesn't handle external input or perform any operations that could lead to security risks.
+
