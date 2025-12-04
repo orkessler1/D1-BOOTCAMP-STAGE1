@@ -1,0 +1,11 @@
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week2/day5/anagram_checker.py
+suggestions for improvement:
+- Consider using more descriptive variable names in some instances to enhance readability further.
+- The `__init__` method could benefit from more robust error handling, such as logging the exception.
+Correctness: 100%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week2/day5/word.txt
+suggestions for improvement:
+- The provided text is just a list of words, not code implementing the AnagramChecker class or the anagrams.py script. Therefore, it does not fulfill any of the requirements outlined in the chapter content.
+Correctness: 0.0%
+-----
