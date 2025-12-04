@@ -1,0 +1,12 @@
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week1/day1/day1-exercise.py
+suggestions for improvement:
+- In Exercise 3, you need to add comments predicting the output before running the code.
+- In Exercise 4, consider validating user input to ensure it's a valid computer brand.
+- For exercise 2, consider using the exponent operator ** for clarity and efficiency.
+- Always sanitize user inputs to prevent potential security vulnerabilities, especially when using `input()`.
+Brief justification:
+- correctness: The code addresses all exercises and provides correct solutions for most of them. Exercise 3 is missing the prediction comments, reducing the overall correctness score. The other exercises are correctly implemented as described in the chapter content.
+- readability: The code is mostly readable with appropriate variable names and comments. However, adding comments to predict the output of Exercise 3 would improve readability.
+- performance: The code is performant for the given tasks. Using more efficient exponentiation could improve performance in Exercise 2, though the impact is negligible for such small numbers.
+- security: User inputs are used directly in `print` statements which can lead to code injection if not properly sanitized. Always validate user input or use parameterized queries to prevent such attacks. This affects the security score negatively.
+

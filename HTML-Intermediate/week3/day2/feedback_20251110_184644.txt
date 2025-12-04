@@ -1,0 +1,77 @@
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/JS/class.js
+suggestions for improvement:
+- The provided code does not address any of the exercises outlined in the chapter content. It's a demonstration of variable scope, not a solution to the given problems.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/JS/class1.js
+suggestions for improvement:
+- The provided code appears to be a collection of unrelated JavaScript snippets, not directly addressing the exercises described in the chapter content.  It includes functions for calculating family ages, a basic calculator, and various DOM manipulation examples, but doesn't implement the specific logic or tasks outlined in the exercises (divisibility checks, shopping list calculations, change calculation, vacation cost estimation, or the user list/navbar modifications).
+- The code doesn't attempt to solve the problems presented in the Chapter Content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/JS/exe2.js
+suggestions for improvement:
+- Add solutions for all the exercises in the chapter.
+- In `myBill()`, include the bonus functionality of decreasing stock.  The instruction says "If the item is in stock, decrease the item's stock by 1"
+- Provide solutions that can run directly, include all html and js file content for each exercise.
+Correctness: 50%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/JS/exe5.js
+suggestions for improvement:
+- Consider adding error handling for image loading.
+- For improved readability, you could use template literals more extensively when constructing the details text content.
+- Use a CSS class for styling instead of inline styles for better maintainability.
+Correctness: 100%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/JS/exercise.js
+suggestions for improvement:
+- Add the bonus functionality to the `displayNumbersDivisible` function to accept a `divisor` parameter.
+- Consistently use template literals for string concatenation to improve readability (e.g., `console.log(`Outcome: ${nums.join(' ')}`);`).
+- Consider adding input validation to the bonus `divisor` parameter to prevent unexpected behavior (e.g., check if it's a number).
+Correctness: 60%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/class.html
+suggestions for improvement:
+- The provided HTML file includes a script reference to `../day2/JS/class.js`. This file is not provided, and the HTML structure itself does not address any of the exercises described in the chapter content. Therefore, it's impossible to assess the correctness or functionality in relation to the exercises.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/class1.html
+suggestions for improvement:
+- The HTML file provided does not contain any JavaScript code related to the exercises described in the chapter content. The provided HTML file is generic, and it seems to be referencing an external JavaScript file (`../day2/JS/class1.js`) which is not provided in the context. Therefore, it's impossible to assess if the code solves any of the problems presented in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/domclass.html
+suggestions for improvement:
+- The provided HTML and JavaScript code snippets do not address any of the exercises outlined in the chapter content. The exercises cover variables, conditionals, loops, functions, DOM selectors, and manipulation based on specific instructions. The provided code simply displays a heading and paragraph, and changes the background color of a div element. It does not fulfill any of the requirements outlined in the exercises.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/exe2.html
+suggestions for improvement:
+- The code correctly implements Exercise 2 related to the shopping list and calculating the bill.
+- The bonus part of Exercise 2 (decreasing stock) isn't implemented.
+Correctness: 50%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/exe3.html
+suggestions for improvement:
+- Consider adding more comments to explain the purpose of different code sections.
+- The code is well-structured, but using more descriptive variable names could further enhance readability.
+Correctness: 100%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/exe4.html
+suggestions for improvement:
+- Implement the `rentalCarCost` function as requested in exercise 4.
+- Present the vacation costs in the console as well as in the HTML (as the current code does).
+- Consider using more descriptive variable names for better readability.
+- Adhere to English language conventions, as the prompt is entirely in English.
+Correctness: 60%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/exe5.html
+suggestions for improvement:
+- The provided HTML file does not contain any Javascript code to solve the exercise. The instruction specified that the array of books and the DOM manipulation has to be done in a Javascript file. It is necessary to add the corresponding Javascript code to solve the exercise.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/exercise.html
+suggestions for improvement:
+- No specific feedback.
+Correctness: 0%
+-----
