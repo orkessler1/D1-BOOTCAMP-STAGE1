@@ -1,3 +1,5 @@
+/************ 🌟 Exercise 1: Intersection Types ************/
+
 type Person = {
   name: string;
   age: number;
@@ -14,69 +16,109 @@ const personDetails: PersonWithAddress = {
   name: "Alice",
   age: 30,
   street: "123 Main St",
-  city: "Wonderland"
+  city: "Wonderland",
 };
- 
 
 
-type ans = number | string ;
-function describeValus(a : ans) : string {
-    if (typeof a === "string"){
-        return "this is a string" ;
-    }
-    else {
-        return "this is a number";
-    }
+/************ 🌟 Exercise 2: Type Guards with Union Types ************/
 
+type NumOrStr = number | string;
+
+function describeValue(value: NumOrStr): string {
+  if (typeof value === "number") {
+    return "This is a number";
+  } else {
+    return "This is a string";
+  }
 }
 
+// דוגמאות
+console.log(describeValue(10));
+console.log(describeValue("hello"));
+
+
+/************ 🌟 Exercise 3: Type Casting ************/
 
 let someValue: any = 123;
 
+// המרה ל-string בעזרת type casting
 let strValue = someValue as string;
 
-console.log(strValue.toUpperCase());
+// שימוש כמחרוזת
+console.log(strValue.toString());
 
 
-function getfirstelement (arr: (number | string)[]): string {
-    const first = arr[0];
-    return first as string;
-    }
+/************ 🌟 Exercise 4: Type Assertions with Union Types ************/
 
+function getFirstElement(arr: (number | string)[]): string {
+  const first = arr[0];
+  // משתמשים ב-type assertion כדי לומר ל-TS שזה string
+  return first.toString() as string;
+}
+
+// דוגמאות
+console.log(getFirstElement([1, 2, 3]));
+console.log(getFirstElement(["a", "b", "c"]));
+console.log(getFirstElement(["x", 2, 3]));
+
+
+/************ 🌟 Exercise 5: Generic Constraints ************/
 
 function logLength<T extends { length: number }>(value: T): void {
   console.log(value.length);
 }
 
+// דוגמאות
+logLength("Hello");
+logLength([1, 2, 3, 4]);
 
-type Person = {
-  name: string;
-  age: number;
-};
+
+/************ 🌟 Exercise 6: Intersection Types and Type Guards ************/
+
+// משתמשים באותו Person מהתרגיל הראשון
 
 type Job = {
-  position: string;
+  position: "Manager" | "Developer";
   department: string;
 };
 
-// Intersection Type
 type Employee = Person & Job;
 
-// Type Guard + Employee Description
 function describeEmployee(emp: Employee): string {
-  if (emp.position.toLowerCase() === "manager") {
+  if (emp.position === "Manager") {
     return `${emp.name} is a Manager of the ${emp.department} department.`;
   } else {
     return `${emp.name} is a Developer in the ${emp.department} department.`;
   }
 }
 
+// דוגמאות
+const emp1: Employee = {
+  name: "Dan",
+  age: 35,
+  position: "Manager",
+  department: "Sales",
+};
 
+const emp2: Employee = {
+  name: "Sara",
+  age: 28,
+  position: "Developer",
+  department: "IT",
+};
+
+console.log(describeEmployee(emp1));
+console.log(describeEmployee(emp2));
+
+
+/************ 🌟 Exercise 7: Type Assertions and Generic Constraints ************/
 
 function formatInput<T extends { toString(): string }>(value: T): string {
-  // משתמשים ב-type assertion כדי להבטיח ל-TS שזה באמת string
   const str = value.toString() as string;
-
-  // Formatting example: maybe wrap it
   return `Formatted: ${str}`;
 }
+
+// דוגמאות
+console.log(formatInput(123));
+console.log(formatInput(true));
+console.log(formatInput({ toString: () => "Custom Object" }));
