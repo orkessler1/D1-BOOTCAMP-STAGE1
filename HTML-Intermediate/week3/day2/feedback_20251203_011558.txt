@@ -1,0 +1,84 @@
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/JS/class.js
+suggestions for improvement:
+- The code provided does not address any of the exercises outlined in the chapter content. It demonstrates variable scope but does not attempt to solve the problems related to finding numbers divisible by a divisor, shopping lists, change calculation, vacation costs, DOM manipulation, or book list display.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/JS/class1.js
+suggestions for improvement:
+- The provided code does not directly address the exercises described in the chapter content. It contains various unrelated JavaScript snippets, function definitions, and DOM manipulations, but it does not solve any of the specific problems posed in the exercises.
+- The code includes examples of function definitions, DOM element selection and manipulation, and attribute retrieval, but these examples are disconnected and do not form a coherent solution to any of the exercises.
+- To address the exercises, the code needs to be restructured to implement the required functionality for each exercise, such as finding numbers divisible by a divisor, calculating a shopping bill, determining change sufficiency, calculating vacation costs, and manipulating HTML elements according to specified instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/JS/exe2.js
+suggestions for improvement:
+- Exercise 1, Exercise 3, Exercise 4, Exercise 5, Exercise 6 and Exercise 7 are missing.
+- In myBill() function, decrement the stock of the item if it is in stock (Bonus).
+Correctness: 50%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/JS/exe5.js
+suggestions for improvement:
+- Consider using template literals for creating HTML elements for improved readability.
+- For larger datasets, consider using document fragments for performance optimization when appending multiple elements to the DOM.
+Correctness: 100%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/JS/exercise.js
+suggestions for improvement:
+- Implement the bonus requirement to accept a 'divisor' parameter.
+- The instructions ask for the function to console.log each number divisible by 23 *during* the loop, not collect them in an array and then log them all at once.
+Correctness: 50%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/class.html
+suggestions for improvement:
+- The HTML file references an external JavaScript file (class.js) but does not contain any JavaScript code within the HTML itself to address any of the exercises. Therefore, it doesn't implement any of the required functionalities.
+- The provided HTML is a basic structure and doesn't include any code or logic to solve the exercises related to variables, conditionals, loops, functions, DOM selectors, shopping lists, change calculation, vacation costs, or DOM manipulation. The HTML appears to simply load an external Javascript file that is not present.
+- There's no actual javascript to review, only a HTML file.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/class1.html
+suggestions for improvement:
+- The provided HTML snippet does not contain any JavaScript code related to the exercises described in the chapter content.
+- The HTML only sets up a basic page structure with headings and paragraph elements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/domclass.html
+suggestions for improvement:
+- The code provided does not address any of the exercises in the chapter content. It only shows basic DOM manipulation, which is a small part of the content, but it doesn't attempt to solve any of the specific problems presented in the exercises.
+- The code should be structured to answer each exercise separately, implementing the specific instructions given for each one.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/exe2.html
+suggestions for improvement:
+- Implement Exercise 1 (Find the numbers divisible by 23).
+- Implement Exercise 3 (What's in my wallet?).
+- Implement Exercise 4 (Vacations Costs).
+- Implement Exercise 5 (Users).
+- Implement Exercise 6 (Change the navbar).
+- Implement Exercise 7 (My Book List).
+- Consider decreasing the stock of an item after it's added to the bill in the myBill() function for the bonus part of Exercise 2.
+Correctness: 50%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/exe3.html
+suggestions for improvement:
+- Consider adding more comments to explain the purpose of certain calculations.
+- The Hebrew comment is irrelevant for an English audience, so it should be removed or translated.
+- Consider using more descriptive variable names (e.g., `numQuarters` instead of `q`).
+Correctness: 100%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/exe4.html
+suggestions for improvement:
+- Implement the rentalCarCost() function as described in the exercise.
+- Consider using template literals for better string formatting in totalVacationCost().
+- Ensure input validation handles edge cases robustly.
+Correctness: 60%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/exe5.html
+suggestions for improvement:
+- The provided HTML file lacks the JavaScript code to fulfill the exercise requirements, specifically Exercise 7 which involves manipulating the DOM to display book information.  JavaScript code is required to create the array of book objects, dynamically generate HTML elements, and apply styling based on the 'alreadyRead' property. The HTML provides only the basic structure with a section element, but the JavaScript part is missing. Hence the code does not do what the question asks.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/exercise.html
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
