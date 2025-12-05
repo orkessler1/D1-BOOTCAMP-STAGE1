@@ -1,0 +1,46 @@
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day4/JS/exe1.js
+suggestions for improvement:
+- In Exercise 1, include your predictions as comments in the code for better clarity and to fulfill the exercise's instructions completely. Also, answer what would happen if `let` was `const`.
+- For Exercise 7, ensure that the HTML file includes a navbar with the ID 'navbar' for the JavaScript code to function correctly. The code currently assumes its existence, which might lead to errors if the HTML structure is missing.
+- While the code in Exercise 8 correctly implements nested functions and array manipulation, consider adding input validation or error handling to ensure the `makeJuice` function receives a valid size argument. This could prevent unexpected behavior if an invalid size is passed.
+Correctness: 95%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day4/JS/exe2.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day4/JS/exe3.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day4/JS/exe4.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day4/JS/exe5.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day4/JS/exe6.js
+suggestions for improvement:
+- The provided code only addresses a portion of Exercise 6 and is incomplete and contains errors.
+- The self-invoking function is not correctly implemented.
+- The string concatenation is incorrect, using template literals improperly.
+- The function is not self-invoking as required by the instructions.
+Correctness: 0%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day4/JS/exe7.js
+suggestions for improvement:
+- Consider consistently using either `console.log` or DOM manipulation for output. Mixing them can make the code harder to understand at a glance.
+- For the DOM manipulation example, consider adding a class or ID to the `<p>` element for easier styling or manipulation later.
+Correctness: 100%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day4/exe1.html
+suggestions for improvement:
+- This HTML file provides a basic structure but lacks the JavaScript code that would address the specific exercises outlined in the chapter content. You need to add the JavaScript code that implements the exercises.
+Correctness: 0%
+-----
