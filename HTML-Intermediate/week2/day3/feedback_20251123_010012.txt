@@ -1,0 +1,24 @@
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week2/day3/check.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week2/day3/day3class.py
+suggestions for improvement:
+- The code provided uses the `collections` and `itertools` module which are not part of the content for the chapter. The chapter covers dunder methods, the string, datetime and faker modules.
+- The code should be refactored to focus only on the topics covered in the current chapter.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week2/day3/day3course.py
+suggestions for improvement:
+- The submitted code appears to be a collection of various Python snippets and class definitions, but it does not directly address the exercises outlined in the chapter content. The code covers general object-oriented programming concepts, date manipulation, and Faker usage, but it doesn't implement the specific functionality requested in each exercise (e.g., Currency class with dunder methods, module importing, random string generation, date calculations, Faker-based user creation).
+- The code lacks a cohesive structure and doesn't present a clear attempt to solve the given problems. It includes unrelated examples and snippets, making it difficult to assess its correctness in relation to the exercises.
+- The submission needs to be reorganized to address each exercise individually with focused code and explanations.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week2/day3/day3exercise.py
+suggestions for improvement:
+- Consider adding docstrings to functions for better documentation.
+- The `_require_same_currency` method could be a standalone function instead of a class method, since it doesn't directly use `self` beyond type checking.
+Correctness: 100%
+-----

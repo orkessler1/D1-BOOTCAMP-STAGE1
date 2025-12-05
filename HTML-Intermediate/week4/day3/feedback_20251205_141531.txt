@@ -1,0 +1,20 @@
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week4/day3/class1.js
+suggestions for improvement:
+- The code provided is completely unrelated to the chapter content on Promises. It demonstrates JSON serialization, date handling, classes with private fields, and try/catch blocks. None of these topics are addressed in the exercise instructions.
+Correctness: 0%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week4/day3/exe1.html
+suggestions for improvement:
+- The submitted code is an HTML form, which is completely unrelated to the chapter's focus on Promises. The instructions explicitly ask for JavaScript code that demonstrates the use of Promises.
+Correctness: 0%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week4/day3/exe2.html
+suggestions for improvement:
+- The provided HTML code is completely unrelated to the chapter content, which focuses on JavaScript Promises. This submission should contain JavaScript code that implements the specified promise-related functionalities.
+Correctness: 0%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week4/day3/exe3.js
+suggestions for improvement:
+- The provided code is unrelated to the exercises on promises. It seems to be creating and stringifying a JSON object, which is not relevant to the chapter content.
+Correctness: 0%
+-----
