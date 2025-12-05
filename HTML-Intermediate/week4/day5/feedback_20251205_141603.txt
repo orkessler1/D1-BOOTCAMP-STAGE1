@@ -1,0 +1,44 @@
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week4/day5/class1.js
+suggestions for improvement:
+- The code does not address the problem described in the chapter content, which is building a Star Wars web application using the provided API.
+- The code includes examples of fetching data from different APIs, posting data to a server, and fetching Chuck Norris jokes, but these are unrelated to the Star Wars application requirement.
+Correctness: 0%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week4/day5/class11.html
+suggestions for improvement:
+- The HTML structure is very basic. It needs elements to display the Star Wars character information (name, height, gender, birth year, home world) and a button to trigger the API call.
+- The JavaScript file (class2.js) is missing, but it should contain the logic for fetching data from the Star Wars API using async/await and the Fetch API, handling loading and error states, and updating the DOM with the character information.
+- The code should include error handling to display an error message if the API call fails.
+- CSS styling should be added to improve the visual presentation of the application.
+Correctness: 0%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week4/day5/class2.js
+suggestions for improvement:
+- The code fetches data from a different API than the one specified in the instructions (artic.edu instead of swapi.tech).
+- The code does not implement the 'random' update functionality using a button click.
+- The code does not handle or display a loading message.
+- The code does not display the specific character information (name, height, gender, birth year, and home world) as required by the project.
+Correctness: 0%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week4/day5/class3.js
+suggestions for improvement:
+- The provided code does not address the Star Wars API project requirements. It simulates fetching posts, comments, and likes, which is unrelated to the specified task of fetching and displaying Star Wars character data from the `https://www.swapi.tech/` API.
+- The code uses `async/await` correctly, but the core logic needs to be adapted to fetch data from the Star Wars API and display character information.
+- Consider implementing error handling specifically for the API calls to the Star Wars API, displaying appropriate messages to the user as described in the prompt.
+Correctness: 0%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week4/day5/exe1.js
+suggestions for improvement:
+- The provided code includes examples related to fetching data from Giphy and Star Wars APIs. While the Star Wars API usage is relevant, the Giphy code is not directly related to the project's objective. The code should be focused on implementing the Star Wars web app as described in the problem.
+- The code is missing the HTML structure and DOM manipulation required to build the web app. It only demonstrates fetching data but doesn't display it in the browser.
+- The code doesn't include any functionality to handle a loading message or error message within the HTML structure, as requested in the instructions. This should be implemented.
+Correctness: 30%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week4/day5/exeday1.sql
+suggestions for improvement:
+- This code is completely unrelated to the project description. It is SQL code for creating tables and inserting data, while the project is about creating a Star Wars web app using JavaScript, AJAX, and the Fetch API.
+- The code does not use async/await or the Fetch API as specified in the 'What you will learn' section.
+- The code does not retrieve data from the specified Star Wars API.
+- The code does not display any information on the DOM.
+Correctness: 0%
+-----
