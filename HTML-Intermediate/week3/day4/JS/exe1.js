@@ -1,129 +1,120 @@
-/*************************************************
-  PREDICTIONS + EXPLANATIONS
-  (Notes: Each numbered block is intended to run separately.
-  If you paste EVERYTHING into one file as-is, redeclaring `let a`
-  multiple times in the same scope will cause SyntaxError.)
-**************************************************/
-
-// -------- #1 --------
+// EX 1
 function funcOne() {
-  let a = 5;                 // local to funcOne, starts at 5
-  if (a > 1) {               // true (5 > 1)
-    a = 3;                   // reassign local a -> 3
-  }
-  alert(`inside the funcOne function ${a}`); // => "inside the funcOne function 3"
-}
-
-// #1.1
-funcOne(); // ALERT OUTPUT: 3
-
-/* #1.2 (const instead of let)
-function funcOne() {
-  const a = 5;
+  let a = 5;
   if (a > 1) {
-    a = 3; // ❌ TypeError: Assignment to constant variable.
+    a = 3;
   }
-  alert(`inside the funcOne function ${a}`); // not reached
+  alert(`inside the funcOne function ${a}`);
 }
-Explanation:
-- `const` makes the binding immutable; trying to reassign `a` throws at runtime.
-*/
+funcOne();
 
-
-// -------- #2 --------
-let a = 0;                   // global/module-scoped `a` = 0
-
+let a = 0;
 function funcTwo() {
-  a = 5;                     // mutate the same (outer) `a`
+  a = 5;
 }
-
 function funcThree() {
   alert(`inside the funcThree function ${a}`);
 }
+funcThree();
+funcTwo();
+funcThree();
 
-// #2.1
-funcThree(); // ALERT OUTPUT: 0   (hasn't been changed yet)
-funcTwo();   // sets a -> 5
-funcThree(); // ALERT OUTPUT: 5   (reflects updated value)
-
-/* #2.2 (const instead of let for the outer a)
-const a = 0;
-
-function funcTwo() {
-  a = 5; // ❌ TypeError: Assignment to constant variable.
-}
-
-function funcThree() {
-  alert(`inside the funcThree function ${a}`);
-}
-
-Run order:
-funcThree(); // ALERT OUTPUT: 0   (ok)
-funcTwo();   // throws TypeError; execution stops here
-funcThree(); // not reached
-
-Explanation:
-- Reassigning a `const` binding is illegal.
-*/
-
-
-// -------- #3 --------
 function funcFour() {
-  // In browsers, properties set on `window` are accessible as globals.
-  // (Note: top-level `let/const` do NOT become `window` props; `var` or direct assignment does.)
-  window.a = "hello";        // creates/updates global `window.a`
+  window.a = "hello";
 }
-
 function funcFive() {
-  // No local `a` here, so it looks up the global.
   alert(`inside the funcFive function ${a}`);
 }
+funcFour();
+funcFive();
 
-// #3.1
-funcFour(); // defines window.a = "hello"
-funcFive(); // ALERT OUTPUT: "hello"
-
-/*
-If you called funcFive() BEFORE funcFour(), you'd get:
-ReferenceError: a is not defined (because no global `a` existed yet).
-*/
-
-
-// -------- #4 --------
-let a = 1;                   // outer `a` = 1
-
+let b = 1;
 function funcSix() {
-  let a = "test";            // shadowing: a NEW, inner `a` (block/function scoped)
-  alert(`inside the funcSix function ${a}`); // ALERT OUTPUT: "test"
+  let a = "test";
+  alert(`inside the funcSix function ${a}`);
 }
+funcSix();
 
-// #4.1
-funcSix(); // ALERT OUTPUT: "test"
-
-/* #4.2 (const instead of let)
-- If the inner `a` is `const a = "test"`, result is the SAME (we don't reassign it).
-- If the outer `a` is `const a = 1`, also SAME result, because the inner `a` shadows it.
-- Errors occur only if you later try to reassign a `const`.
-*/
-
-
-// -------- #5 --------
-let a = 2;                   // outer `a` = 2
+let c = 2;
 if (true) {
-  let a = 5;                 // block-scoped `a` (shadows outer only inside this block)
-  alert(`in the if block ${a}`); // ALERT OUTPUT: 5
+  let c = 5;
+  alert(`in the if block ${c}`);
 }
-alert(`outside of the if block ${a}`); // ALERT OUTPUT: 2
+alert(`outside of the if block ${c}`);
 
-/* #5.2 (const instead of let)
-const a = 2;
-if (true) {
-  const a = 5; // block-scoped, independent from the outer `a`
-  alert(`in the if block ${a}`);     // ALERT OUTPUT: 5
+// EX 2
+const winBattle = () => true;
+const experiencePoints = winBattle() ? 10 : 1;
+console.log(experiencePoints);
+
+// EX 3
+const isString = (value) => typeof value === "string";
+console.log(isString("hello"));
+console.log(isString([1, 2, 4, 0]));
+
+// EX 4
+const sum = (x, y) => x + y;
+console.log(sum(3, 7));
+
+// EX 5
+function kgToGramsDec(kg) {
+  return kg * 1000;
 }
-alert(`outside of the if block ${a}`); // ALERT OUTPUT: 2
+console.log(kgToGramsDec(2));
 
-Explanation:
-- `let` and `const` are both block-scoped, so shadowing works the same here.
-- No reassignment occurs, so `const` is fine.
-*/
+const kgToGramsExp = function (kg) {
+  return kg * 1000;
+};
+console.log(kgToGramsExp(2.5));
+
+const kgToGramsArrow = (kg) => kg * 1000;
+console.log(kgToGramsArrow(3));
+
+// EX 6
+(function (numChildren, partnerName, location, jobTitle) {
+  const sentence = `You will be a ${jobTitle} in ${location}, and married to ${partnerName} with ${numChildren} kids.`;
+  const p = document.createElement("p");
+  p.textContent = sentence;
+  document.body.appendChild(p);
+})(3, "Sarah", "Paris", "Web Developer");
+
+// EX 7
+(function (userName) {
+  const navbar = document.getElementById("navbar");
+  if (!navbar) return;
+
+  const userDiv = document.createElement("div");
+  const img = document.createElement("img");
+  img.src = "https://via.placeholder.com/40";
+  img.alt = `${userName} profile picture`;
+
+  const span = document.createElement("span");
+  span.textContent = userName;
+
+  userDiv.appendChild(img);
+  userDiv.appendChild(span);
+  navbar.appendChild(userDiv);
+})("John");
+
+// EX 8
+function makeJuice(size) {
+  const ingredients = [];
+
+  function addIngredients(ing1, ing2, ing3) {
+    ingredients.push(ing1, ing2, ing3);
+  }
+
+  function displayJuice() {
+    const sentence = `The client wants a ${size} juice, containing ${ingredients.join(", ")}.`;
+    const p = document.createElement("p");
+    p.textContent = sentence;
+    document.body.appendChild(p);
+  }
+
+  addIngredients("apple", "banana", "orange");
+  addIngredients("kiwi", "mango", "pineapple");
+
+  displayJuice();
+}
+
+makeJuice("large");
