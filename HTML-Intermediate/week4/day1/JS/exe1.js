@@ -1,66 +1,97 @@
-const colors = ["Blue", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow"];
-colors.forEach((color, i) => {      // אינדקס אי-זוגי: 1, 3, ...
-    console.log("the", i+1, "choice" , color);
+// 🌟 Exercise 1 : Location
+const person = {
+    name: 'John Doe',
+    age: 25,
+    location: {
+        country: 'Canada',
+        city: 'Vancouver',
+        coordinates: [49.2827, -123.1207]
+    }
+}
+
+const {name, location: {country, city, coordinates: [lat, lng]}} = person;
+
+console.log(`I am ${name} from ${city}, ${country}. Latitude(${lat}), Longitude(${lng})`);
+
+
+// 🌟 Exercise 2: Display Student Info
+function displayStudentInfo({first, last}) {
+    return `Your full name is ${first} ${last}`;
+}
+
+console.log(displayStudentInfo({first: 'Elie', last: 'Schoppik'}));
+
+
+// 🌟 Exercise 3: User & id
+const users = { user1: 18273, user2: 92833, user3: 90315 };
+
+const usersArray = Object.entries(users);
+console.log(usersArray);
+
+const usersIdDoubled = usersArray.map(([user, id]) => [user, id * 2]);
+console.log(usersIdDoubled);
+
+
+// 🌟 Exercise 4 : Person class
+class Person {
+  constructor(name) {
+    this.name = name;
   }
-);
-
-if (colors.some(color => color === "Violet")){
-    console.log("yeah");
 }
-else {
-    console.log("no");
+const member = new Person('John');
+console.log(typeof member); // "object"
+
+
+// 🌟 Exercise 5 : Dog class
+// התשובה הנכונה: רק 2
+// כי רק היא משתמשת ב-super(name)
+
+class Dog {
+  constructor(name) {
+    this.name = name;
+  }
 }
 
-const ordinal = ["th","st","nd","rd"];
-
-colors.forEach((color, i) => {
-  const num = i + 1; // המספר הסידורי (1,2,3…)
-  
-  // אם זה 1 → "st", אם זה 2 → "nd", אם זה 3 → "rd", אחרת "th"
-  let suffix = (num === 1) ? ordinal[1] 
-             : (num === 2) ? ordinal[2] 
-             : (num === 3) ? ordinal[3] 
-             : ordinal[0];
-  
-  console.log(`${num}${suffix} choice is ${color}.`);
-});
+class Labrador extends Dog {
+  constructor(name, size) {
+    super(name);
+    this.size = size;
+  }
+}
 
 
-const users = [
-  { firstName: 'Bradley', lastName: 'Bouley', role: 'Full Stack Resident' },
-  { firstName: 'Chloe', lastName: 'Alnaji', role: 'Full Stack Resident' },
-  { firstName: 'Jonathan', lastName: 'Baughn', role: 'Enterprise Instructor' },
-  { firstName: 'Michael', lastName: 'Herman', role: 'Lead Instructor' },
-  { firstName: 'Robert', lastName: 'Hajek', role: 'Full Stack Resident' },
-  { firstName: 'Wes', lastName: 'Reid', role: 'Instructor' },
-  { firstName: 'Zach', lastName: 'Klabunde', role: 'Instructor' }
-];
+// 🌟 Exercise 6 : Challenges
 
-const welcomeStudents = users.map(user => `Hello ${user.firstName}`);
-console.log(welcomeStudents);
-// ["Hello Bradley","Hello Chloe","Hello Jonathan","Hello Michael","Hello Robert","Hello Wes","Hello Zach"]
+console.log([2] === [2]);   // false
+console.log({} === {});     // false
 
+const object1 = { number: 5 }; 
+const object2 = object1; 
+const object3 = object2; 
+const object4 = { number: 5 };
 
-const epic = ['a', 'long', 'time', 'ago', 'in a', 'galaxy', 'far far', 'away'];
+object1.number = 4;
 
-const str = epic.reduce((acc, value) => acc + ' ' + value); 
-console.log(str); 
-// "a long time ago in a galaxy far far away"
+console.log(object2.number); // 4
+console.log(object3.number); // 4
+console.log(object4.number); // 5
 
 
-const students = [
-  {name: "Ray",      course: "Computer Science",       isPassed: true},
-  {name: "Liam",     course: "Computer Science",       isPassed: false},
-  {name: "Jenner",   course: "Information Technology", isPassed: true},
-  {name: "Marco",    course: "Robotics",               isPassed: true},
-  {name: "Kimberly", course: "Artificial Intelligence",isPassed: false},
-  {name: "Jamie",    course: "Big Data",               isPassed: false},
-];
+// Classes Challenge
+class Animal {
+    constructor(name, type, color) {
+        this.name = name;
+        this.type = type;
+        this.color = color;
+    }
+}
 
-// filter -> רק מי שעבר; map -> לשם בלבד
-const passedNames = students
-  .filter(student => student.isPassed)
-  .map(student => student.name);
+class Mammal extends Animal {
+    sound(soundType) {
+        return `${soundType} I'm a ${this.type}, named ${this.name} and I'm ${this.color}`;
+    }
+}
 
-console.log(passedNames);
-// ["Ray", "Jenner", "Marco"]
+const farmerCow = new Mammal("Lily", "cow", "brown and white");
+
+console.log(farmerCow.sound("Moooo"));
