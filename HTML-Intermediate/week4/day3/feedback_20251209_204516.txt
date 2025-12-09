@@ -1,0 +1,26 @@
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week4/day3/class1.js
+suggestions for improvement:
+- The code examples are not directly related to the HTML form exercises. The focus should be on creating HTML forms and understanding how data is sent via GET and POST methods.
+- The JSON Mario exercise requires converting a JavaScript object to JSON, including pretty printing. The provided JSON examples are generic and don't address this specific requirement.
+- Breakpoints and debugging were mentioned. While present, these are not directly tied to the form exercises.
+- It's better to address HTML form exercises using HTML code and explain the differences between GET and POST. Similarly, for JSON Mario, demonstrate the conversion process from JavaScript object to JSON using `JSON.stringify()` with and without the pretty print option (using null, 2).
+Correctness: 20%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week4/day3/exe1.html
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week4/day3/exe2.html
+suggestions for improvement:
+- Create separate HTML files for each exercise to avoid confusion.
+- For Exercise 1, change the form's method to 'GET'.
+- For Exercise 3, provide the converted JSON string, not HTML code.
+Correctness: 50%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week4/day3/exe3.js
+suggestions for improvement:
+- The solution only addresses the third exercise (JSON Mario).
+- It does not provide the HTML form requested by exercise 1 and 2.
+Correctness: 33%
+-----
