@@ -1,0 +1,23 @@
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day3/JS/class1.js
+suggestions for improvement:
+- The code snippet provided does not implement any of the exercises in the provided material. Specifically, it doesn't address DOM manipulation, event handling (beyond a basic form submission), or modifications to the provided HTML structures.
+Correctness: 0%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day3/JS/exe3.js
+suggestions for improvement:
+- The provided code relates to Exercise 3. You have not provided code to solve the rest of the exercises, therefore the correctness score is 0.
+Correctness: 0%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day3/JS/exe4.js
+suggestions for improvement:
+- The solution lacks the crucial step of displaying the calculated volume in the 'volumeInput' field.
+- The code uses a comment in Hebrew - while not inherently wrong, consistent use of English is preferable for maintainability and collaboration.
+- The code does not include the HTML needed for the file
+Correctness: 0%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day3/JS/solot.js
+suggestions for improvement:
+- Consider adding more comments to explain complex logic.
+- Use more descriptive variable names for improved clarity.
+Correctness: 100%
+-----

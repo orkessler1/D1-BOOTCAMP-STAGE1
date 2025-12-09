@@ -1,0 +1,16 @@
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week4/day4/class1.js
+suggestions for improvement:
+- The code does not address any of the exercises described in the chapter content.
+Correctness: 0%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week4/day4/class2.js
+suggestions for improvement:
+- The code appears to demonstrate the use of Promises, but it doesn't address any of the specific exercises in the chapter content (Giphy API, async/await with the Star Wars API, or analyzing the provided async function example).  It's completely unrelated to the specified tasks.
+Correctness: 0%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week4/day4/exe1.js
+suggestions for improvement:
+- The provided code examples are not directly related to the exercises outlined in the chapter content. They demonstrate basic promise creation and resolution/rejection, but they do not address the specific tasks of fetching data from the Giphy API, using async/await with the Star Wars API, or analyzing the given async function.
+- The code should be modified to address the specific requirements of exercises 1-4: fetching data from the Giphy API, retrieving 10 gifs about the sun with a starting position of 2, using async/await for the Star Wars API request, and analyzing the outcome of the provided async function.
+Correctness: 0%
+-----

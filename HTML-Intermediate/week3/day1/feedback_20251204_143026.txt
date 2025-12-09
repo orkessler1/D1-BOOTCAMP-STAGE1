@@ -1,0 +1,43 @@
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day1/JS/exeday1.js
+suggestions for improvement:
+- Consider adding comments to explain complex logic, such as the slice method in Exercise 1.
+- While the comments are in hebrew, It's better practice to stick to english for the sake of standardization
+Correctness: 100%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day1/JS/script.js
+suggestions for improvement:
+- The submitted code is unrelated to the content of the Chapter Content/Questions.
+Correctness: 0%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day1/JS/script1.js
+suggestions for improvement:
+- The code does not address the exercises outlined in the chapter content (variables, conditionals, loops, objects and array manipulations).
+- Avoid unnecessary use of DOM manipulation (accessing elements like 'output' and 'feed') since the exercises do not explicitly ask to display results on a webpage.
+Correctness: 0%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day1/JS/script2.js
+suggestions for improvement:
+- The code appears to be for a different exercise, likely one involving even/odd numbers and displaying results on a webpage. It does not address any of the exercises in the provided chapter content.
+Correctness: 0%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day1/exesriseday1.html
+suggestions for improvement:
+- The provided HTML sets up a page to display output from a JavaScript file ('JS/exeday1.js'). However, without the content of 'JS/exeday1.js', it's impossible to assess if the code correctly addresses the exercises related to variables, conditionals, loops, and objects outlined in the Chapter Content/Questions. The HTML structure itself doesn't perform any of the required tasks.
+Correctness: 0%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day1/index.html
+suggestions for improvement:
+- The provided HTML code does not address any of the JavaScript exercises listed in the chapter content. It's a basic HTML structure for displaying content in the console, but it lacks any JavaScript code that implements the variables, conditionals, loops, or objects as outlined in the exercise instructions.
+Correctness: 0.0%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day1/index1.html
+suggestions for improvement:
+- This HTML file does not address any of the JavaScript exercises provided in the prompt. It appears to be a template for displaying data, possibly related to a database and newsfeed, but doesn't contain any of the required JavaScript code to solve the problems related to variables, conditionals, loops, or objects as outlined in the initial exercises.
+- The focus of the exercises is on JavaScript fundamentals. An HTML file, while useful for displaying results, does not solve the core programming problems presented.
+Correctness: 0%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day1/index2.html
+suggestions for improvement:
+- The provided HTML does not contain any JavaScript code that addresses the exercises in the chapter content. The `script` tag links to an external JavaScript file, but the content of that file is not provided, making it impossible to assess its correctness.
+Correctness: 0%
+-----

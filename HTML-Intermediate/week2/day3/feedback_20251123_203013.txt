@@ -1,0 +1,26 @@
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week2/day3/check.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week2/day3/day3class.py
+suggestions for improvement:
+- This code demonstrates various functionalities of the `collections` and `itertools` modules, which were not requested by the Exercises.
+- The code provides examples of `defaultdict`, `Counter`, `deque`, `namedtuple`, `ChainMap`, and `OrderedDict` from the `collections` module.
+- The code gives examples of `count`, `cycle`, `repeat`, `chain`, and `compress` functions from the `itertools` module.
+- The code does not address the specific tasks outlined in the chapter content, such as implementing dunder methods for the `Currency` class, creating and importing modules, generating random strings with the `string` module, working with dates using the `datetime` module, or generating fake data with the `faker` module.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week2/day3/day3course.py
+suggestions for improvement:
+- The provided code is a mix of unrelated Python snippets and does not address any of the specific exercises or topics outlined in the chapter content.
+- The code includes class definitions (Dog, Circle, MyClass, Person, PrintList), date manipulations, Faker module usage, and time calculations, but it doesn't implement the functionalities as requested in the exercises.
+- The code lacks the implementation of dunder methods for the `Currency` class (Exercise 1), the creation and import of a module with a function (Exercise 2), the generation of a random string using the `string` module (Exercise 3), and the functions for displaying the current date and calculating the time left until January 1st (Exercises 4 and 5).
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week2/day3/day3exercise.py
+suggestions for improvement:
+- Consider adding docstrings to functions and classes for better documentation.
+- The `_require_same_currency` method could be a standalone function if it doesn't rely on `self`.
+Correctness: 100%
+-----
