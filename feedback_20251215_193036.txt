@@ -1,0 +1,13 @@
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/sql/exeday2.sql
+suggestions for improvement:
+- Exercise 1 is missing.
+- Exercise 2, question 3 is not implemented correctly. The `DISTINCT` keyword is required to remove duplicates.
+- Exercise 2, question 4 is implemented correctly, but it should be displayed in descending order by their first name. Missing the `DESC` keyword.
+- Exercise 2, question 5 is not implemented correctly. It should be ascending order according to their rental rate
+- Exercise 2, question 6 is not implemented at all.
+- Exercise 2, question 8 is not implemented correctly. It should check if your favorite movie exists in the database
+- Exercise 2, question 10 is not implemented correctly. The `ORDER BY` clause should use `ASC` to find the cheapest movies.
+- Exercise 2, question 13 and 14 are missing.
+- Exercise 2, question 11 and 15 are bonus and are missing.
+Correctness: 65%
+-----
