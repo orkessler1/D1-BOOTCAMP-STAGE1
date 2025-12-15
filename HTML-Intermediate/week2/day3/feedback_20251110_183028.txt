@@ -1,0 +1,24 @@
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week2/day3/check.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week2/day3/day3class.py
+suggestions for improvement:
+- The code demonstrates various functionalities of the `collections` and `itertools` modules but doesn't address any of the specific exercises or topics outlined in the chapter content (Currency class, module creation/import, string module usage, datetime module usage, faker module usage).
+- The code should be rewritten to directly address the exercises provided in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week2/day3/day3course.py
+suggestions for improvement:
+- The code provided does not address any of the exercises outlined in the chapter content. It contains various class definitions and examples that are unrelated to the specified tasks.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week2/day3/day3exercise.py
+suggestions for improvement:
+- In the Currency class, consider returning a new Currency object in the __add__ method to better represent the result of currency addition, instead of just returning the sum of amounts.
+- For consistency, consider using f-strings in all string formatting operations.
+- In the random string generator, using `random.choices(letters, k=5)` can be more efficient and readable than a loop.
+- When calculating the time difference to January 1st, make the year dynamic so that it always calculates the time to the next January 1st, regardless of the current year.
+Correctness: 90%
+-----

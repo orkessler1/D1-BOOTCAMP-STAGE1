@@ -1,0 +1,15 @@
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week4/day2/class1.js
+suggestions for improvement:
+- The code provided is irrelevant to the chapter content which is about HTML forms, HTTP methods (GET and POST), and JSON conversion.
+Correctness: 0%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week4/day2/class2.js
+suggestions for improvement:
+- The code provided does not address any of the exercises outlined in the chapter content. It covers JavaScript object creation, property iteration, class definitions, inheritance, and getter/setter methods, which are unrelated to HTML forms, HTTP methods (GET/POST), and JSON conversion as described in the exercise instructions.
+Correctness: 0%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week4/day2/exe1.js
+suggestions for improvement:
+- The provided code does not address the exercises described in the chapter content, which focuses on HTML forms and JSON conversion. The code includes unrelated JavaScript concepts like destructuring, Object.entries, and class inheritance.
+Correctness: 0%
+-----

@@ -1,0 +1,78 @@
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/JS/class.js
+suggestions for improvement:
+- This code demonstrates variable scope, which is tangentially related to the chapter's introductory list of topics (Variables, Conditionals, Loops, Functions, DOM selectors). However, it doesn't attempt to solve any of the exercises. It does not address the instructions provided for Exercises 1 through 7. The code does not fulfill any of the specific requirements outlined in the problem description.
+Correctness: 0%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/JS/class1.js
+suggestions for improvement:
+- The code appears to be a collection of snippets addressing different DOM manipulation and JavaScript concepts, but it's not structured to specifically solve any of the provided exercises. It seems to be a mix of attempts at different exercises or demonstrations.
+- The code lacks a clear connection to the problems described in the chapter content. It does not provide a coherent solution for any of the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/JS/exe2.js
+suggestions for improvement:
+- In exercise 1, implement the function `displayNumbersDivisible()` according to the instructions including the bonus part. This involves looping through numbers, checking divisibility, and calculating the sum.
+- In exercise 3, implement the `changeEnough()` function to calculate the total value of the change and compare it to the item price.
+- In exercise 4, implement the three functions (`hotelCost()`, `planeRideCost()`, and `rentalCarCost()`) with user input validation using prompts (or a single prompt for the bonus). Then, combine them in `totalVacationCost()`.
+- In exercise 5, create an HTML file and implement the DOM manipulations as described in the instructions, including adding classes, changing text, deleting elements, and styling.
+- In exercise 6, create an HTML file and implement the DOM manipulations as described in the instructions, including changing the id attribute, adding a new list item, and displaying text content.
+- In exercise 7, create an HTML file with the specified section, create the `allBooks` array, and use DOM manipulation to render the books within divs, including image display, title, author, and styling based on whether the book is already read.
+Correctness: 50%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/JS/exe5.js
+suggestions for improvement:
+- Consider adding more descriptive class names to the created elements for better styling control.
+- The image URLs are placeholders, which is fine for development. In a real application, use actual image URLs.
+Correctness: 100%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/JS/exercise.js
+suggestions for improvement:
+- Consider adding more comments to explain the logic behind specific DOM manipulations in Exercise 5 and 6.
+Correctness: 100%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/class.html
+suggestions for improvement:
+- The HTML file includes a link to a JavaScript file, but no JavaScript code is provided to evaluate against the exercises.
+- The HTML structure itself doesn't address any of the specific exercises (e.g., calculations, DOM manipulation, etc.).
+Correctness: 0%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/class1.html
+suggestions for improvement:
+- The provided HTML file does not contain any JavaScript code to address the exercises described in the chapter content.
+- The HTML includes links to external JavaScript files (class1.js), but the content of these files is not provided, making it impossible to evaluate their correctness.
+Correctness: 0%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/domclass.html
+suggestions for improvement:
+- The provided code snippets and HTML structure do not address any of the exercises outlined in the chapter content/questions. There's no implementation of functions, loops, DOM manipulation tasks, or any of the specific requirements of exercises 1-7.
+Correctness: 0%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/exe2.html
+suggestions for improvement:
+- The bonus part of Exercise 2, which asks to decrease the item's stock if it is in stock, is not implemented.
+- Exercise 1, 3, 4, 5, 6 and 7 are not implemented.
+Correctness: 50%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/exe3.html
+suggestions for improvement:
+- Consider adding comments in English for better understanding by a wider audience.
+- Using more descriptive variable names (e.g., `quarters`, `dimes`, `nickels`, `pennies` instead of `q`, `d`, `n`, `p`) could improve readability, though the current names are acceptable given the context.
+Correctness: 100%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/exe4.html
+suggestions for improvement:
+- Implement `rentalCarCost()` function as described in the instructions.
+- Include the car rental cost in the `totalVacationCost()` calculation.
+- Handle the bonus requirement of taking input only in `totalVacationCost()` and passing it to other functions.
+Correctness: 60%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/exe5.html
+suggestions for improvement:
+- The provided code is only an HTML structure with a link to a javascript file, but does not include the required javascript code to solve the problem. Therefore, it does not address the problem presented in the Chapter Content/Questions.
+Correctness: 0%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week3/day2/exercise.html
+suggestions for improvement:
+- The HTML code provided only sets up the structure for exercises 5, 6, and 7 but doesn't include any JavaScript code to actually solve the exercises. The instructions are for JavaScript functionality. The JS file is linked, but no JS code is provided for review.
+Correctness: 0%
+-----

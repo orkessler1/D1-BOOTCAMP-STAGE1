@@ -1,0 +1,17 @@
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week4/day1/JS/class1.js
+suggestions for improvement:
+- This code includes examples of array methods such as `forEach`, `some`, and `every`, which are not directly related to the chapter's focus on object methods, object destructuring, and classes.
+- The code provided does not address any of the exercises of the chapter: Location, Display Student Info, User & id, Person class, Dog class, Challenges
+Correctness: 0%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week4/day1/JS/class2.js
+suggestions for improvement:
+- The code does not address any of the questions in the chapter content.
+- The code includes examples of array methods and destructuring, but it doesn't attempt to solve the exercises provided.
+Correctness: 0%
+-----
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week4/day1/JS/exe1.js
+suggestions for improvement:
+- The provided code demonstrates array methods like forEach, some, map, and reduce, as well as array filtering. However, it does not directly address the specific exercises or learning objectives outlined in the chapter content, which focus on object methods, object destructuring, and classes.
+Correctness: 0%
+-----

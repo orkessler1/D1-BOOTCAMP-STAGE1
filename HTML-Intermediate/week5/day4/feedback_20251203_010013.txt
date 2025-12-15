@@ -1,0 +1,20 @@
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week5/day4/class1.ts
+suggestions for improvement:
+- The code provided doesn't address individual exercises separately, making it difficult to evaluate its correctness for each specific task.
+- The code mixes multiple concepts (intersection types, type guards, type assertions) in a seemingly random order, instead of focusing on one exercise at a time.
+- The generic constraints exercise is completely missing.
+- The provided code includes DOM manipulation (document.querySelector), which is unrelated to the exercise topics.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week5/day4/class2.ts
+suggestions for improvement:
+- The code is unrelated to the content of the chapter. It doesn't cover intersection types, type guards, type casting, type assertions, or generics.
+- Ensure that the code addresses the specific requirements of each exercise in the chapter.
+Correctness: 0%
+-----
+URL: URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/HTML-Intermediate/week5/day4/exe1.ts
+suggestions for improvement:
+- Consider using more descriptive variable names in the `describeValus` function for better readability.
+- Avoid unnecessary type assertions when TypeScript can infer the type. For example, if `value.toString()` is already known to return a string, the `as string` assertion in `formatInput` is redundant.
+Correctness: 100%
+-----
