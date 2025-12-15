@@ -1,4 +1,5 @@
-/************ 🌟 Exercise 1: Intersection Types ************/
+// 🌟 Exercise 1: Intersection Types
+// ---------------------------------
 
 type Person = {
   name: string;
@@ -12,19 +13,18 @@ type Address = {
 
 type PersonWithAddress = Person & Address;
 
-const personDetails: PersonWithAddress = {
-  name: "Alice",
-  age: 30,
-  street: "123 Main St",
-  city: "Wonderland",
+const personWithAddress: PersonWithAddress = {
+  name: "Or",
+  age: 25,
+  street: "Herzl 10",
+  city: "Tel Aviv",
 };
 
 
-/************ 🌟 Exercise 2: Type Guards with Union Types ************/
+// 🌟 Exercise 2: Type Guards with Union Types
+// -------------------------------------------
 
-type NumOrStr = number | string;
-
-function describeValue(value: NumOrStr): string {
+function describeValue(value: number | string): string {
   if (typeof value === "number") {
     return "This is a number";
   } else {
@@ -32,93 +32,103 @@ function describeValue(value: NumOrStr): string {
   }
 }
 
-// דוגמאות
-console.log(describeValue(10));
-console.log(describeValue("hello"));
+// דוגמאות:
+describeValue(10);
+describeValue("hello");
 
 
-/************ 🌟 Exercise 3: Type Casting ************/
+// 🌟 Exercise 3: Type Casting
+// ---------------------------
 
-let someValue: any = 123;
+let someValue: any = "Hello TypeScript";
 
-// המרה ל-string בעזרת type casting
-let strValue = someValue as string;
+// Casting / Assertion למחרוזת
+let stringValue = someValue as string;
 
 // שימוש כמחרוזת
-console.log(strValue.toString());
+console.log(stringValue.toUpperCase());
 
 
-/************ 🌟 Exercise 4: Type Assertions with Union Types ************/
+// 🌟 Exercise 4: Type Assertions with Union Types
+// ----------------------------------------------
 
 function getFirstElement(arr: (number | string)[]): string {
-  const first = arr[0];
-  // משתמשים ב-type assertion כדי לומר ל-TS שזה string
-  return first.toString() as string;
+  // מניחים שהאלמנט הראשון אפשר להחזיר כמחרוזת
+  const first = arr[0] as string;
+  return first;
 }
 
-// דוגמאות
-console.log(getFirstElement([1, 2, 3]));
-console.log(getFirstElement(["a", "b", "c"]));
-console.log(getFirstElement(["x", 2, 3]));
+// דוגמאות:
+getFirstElement(["a", 2, 3]);
+getFirstElement(["hello", "world"]);
 
 
-/************ 🌟 Exercise 5: Generic Constraints ************/
+// 🌟 Exercise 5: Generic Constraints
+// ----------------------------------
 
 function logLength<T extends { length: number }>(value: T): void {
-  console.log(value.length);
+  console.log("Length is:", value.length);
 }
 
-// דוגמאות
-logLength("Hello");
+// דוגמאות:
+logLength("hello");
 logLength([1, 2, 3, 4]);
 
 
-/************ 🌟 Exercise 6: Intersection Types and Type Guards ************/
+// 🌟 Exercise 6: Intersection Types and Type Guards
+// ------------------------------------------------
 
-// משתמשים באותו Person מהתרגיל הראשון
+type Person2 = {
+  name: string;
+  age: number;
+};
 
 type Job = {
-  position: "Manager" | "Developer";
+  position: string;
   department: string;
 };
 
-type Employee = Person & Job;
+type Employee = Person2 & Job;
 
 function describeEmployee(emp: Employee): string {
   if (emp.position === "Manager") {
-    return `${emp.name} is a Manager of the ${emp.department} department.`;
+    return `${emp.name} is a Manager in ${emp.department}`;
+  } else if (emp.position === "Developer") {
+    return `${emp.name} is a Developer in ${emp.department}`;
   } else {
-    return `${emp.name} is a Developer in the ${emp.department} department.`;
+    return `${emp.name} works in ${emp.department} as ${emp.position}`;
   }
 }
 
-// דוגמאות
-const emp1: Employee = {
-  name: "Dan",
-  age: 35,
+// דוגמה:
+const employee1: Employee = {
+  name: "Dana",
+  age: 30,
   position: "Manager",
-  department: "Sales",
+  department: "HR",
 };
 
-const emp2: Employee = {
-  name: "Sara",
-  age: 28,
+const employee2: Employee = {
+  name: "Avi",
+  age: 27,
   position: "Developer",
-  department: "IT",
+  department: "R&D",
 };
 
-console.log(describeEmployee(emp1));
-console.log(describeEmployee(emp2));
+describeEmployee(employee1);
+describeEmployee(employee2);
 
 
-/************ 🌟 Exercise 7: Type Assertions and Generic Constraints ************/
+// 🌟 Exercise 7: Type Assertions and Generic Constraints
+// -----------------------------------------------------
 
 function formatInput<T extends { toString(): string }>(value: T): string {
+  // הופכים את הערך למחרוזת בעזרת toString, ואז מתייחסים אליו כמחרוזת
   const str = value.toString() as string;
   return `Formatted: ${str}`;
 }
 
-// דוגמאות
-console.log(formatInput(123));
-console.log(formatInput(true));
-console.log(formatInput({ toString: () => "Custom Object" }));
+// דוגמאות:
+formatInput(123);
+formatInput("Hello");
+formatInput([1, 2, 3]);
