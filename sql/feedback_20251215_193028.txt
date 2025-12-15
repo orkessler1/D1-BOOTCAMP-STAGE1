@@ -1,0 +1,14 @@
+URL: https://github.com/orkessler1/D1-BOOTCAMP-STAGE1/blob/main/sql/exeday1.sql
+suggestions for improvement:
+- The database creation part is missing. The question asks to create a database named 'public'.
+- The 'customers' table requires first and last name as separate columns, not a single 'full_name' column.
+- The 'customers' table does not have the data as specified in the question. Instead of 'Greg Jones', 'Sandra Jones' etc the table contains 'Alice Green' and 'Bob Blue'.
+- The question asks for customers whose last name is Jones and first name is not Scott. The existing queries do not fully address this.
+- The query `SELECT * FROM customers WHERE full_name ILIKE '%Green%' ;` does not find customers whose last name is 'Jones'.
+- The query `SELECT * FROM customers WHERE NOT full_name ILIKE '%Green%' ;` does not return customers whose first name is not 'Scott'.
+Brief justification:
+- correctness: The code creates tables and inserts data, but it deviates from the requirements in the exercise. The table structures are different, the data inserted is different and some queries do not return the expected output as per the question. Database named `public` is not created. The code does not fully address the requirements, so it gets a 50% score.
+- readability: The code is reasonably readable, with clear table and column names.  Consistent use of capitalization would improve readability slightly.
+- performance: The queries are simple SELECT statements, so performance is not a major concern. Indexing might be considered for larger tables, but is not relevant here.
+- security: The code uses parameterized queries via INSERT statements, which prevents SQL injection.  There's no sensitive data being handled.
+
